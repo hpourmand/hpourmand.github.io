@@ -175,21 +175,21 @@
     <div class="project">
         <h3>Library</h3>
         <p>Built a predictive model using machine learning algorithms to forecast sales trends, leading to a 15% improvement in inventory management.</p>
-        <a href="https://github.com/hpourmand/Library" target="_blank" class="btn">View on GitHub</a>
+        <a href="https://github.com/hpourmand/Library" target="_blank" target="_blank" class="btn">View on GitHub</a>
     </div>
     
     <!-- Project 3 -->
     <div class="project">
         <h3>Emergency-911-calls</h3>
         <p>Developed a dynamic Tableau dashboard to visualize KPIs, which improved decision-making speed for marketing and sales teams by 30%.</p>
-        <a href="https://github.com/hpourmand/Emergency-911-calls"_blank" class="btn">View on GitHub</a>
+        <a href="https://github.com/hpourmand/Emergency-911-calls" target="_blank" class="btn">View on GitHub</a>
     </div>
 
   <!-- Project 4 -->
     <div class="project">
         <h3>Analyzing-Global-Trends-in-Programming-Database-Skills-and-IDE-Demand</h3>
         <p>Built a predictive model using machine learning algorithms to forecast sales trends, leading to a 15% improvement in inventory management.</p>
-        <a href="https://github.com/hpourmand/Analyzing-Global-Trends-in-Programming-Database-Skills-and-IDE-Demand"_blank" class="btn">View on GitHub</a>
+        <a href="https://github.com/hpourmand/Analyzing-Global-Trends-in-Programming-Database-Skills-and-IDE-Demand"_blank" target="_blank" class="btn">View on GitHub</a>
     </div>
 
 
