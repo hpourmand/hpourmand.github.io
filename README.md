@@ -157,10 +157,9 @@
       <p>As Data Analysts for a global IT consulting firm, we will identify future skill requirements by analyzing data on in-demand programming skills. Our first task involves gathering information from job postings, training portals, and surveys to determine the top programming languages, database skills, and popular IDEs. We will scrape websites and access APIs to collect data in .csv, Excel, and database formats. After data wrangling, we’ll apply statistical analysis and create a dashboard using IBM Cognos Analytics, culminating in a presentation of our findings.</p>
       <a href="https://github.com/hpourmand/Analyzing-Global-Trends-in-Programming-Database-Skills-and-IDE-Demand" target="_blank" class="btn">View on GitHub</a>
     </div>
-    <div class="project">
-      <h3>U.S.-Stock-Market</h3>
-      <p>Built a predictive model using machine learning algorithms to forecast sales trends, leading to a 15% improvement in inventory management.</p>
-      <a href="https://github.com/hpourmand/U.S.-Stock-Market-Data" target="_blank" class="btn">View on GitHub</a>
+
+
+    
     </div>
     <div class="project">
       <h3>Olympic Performance Analysis by Country</h3>
