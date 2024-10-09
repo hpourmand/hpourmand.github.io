@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600&display=swap" rel="stylesheet">
+
   <style>
     body {
       font-family: 'Raleway', sans-serif;
@@ -100,6 +100,13 @@
       text-align: center;
       padding: 20px;
     }
+    .social-links a {
+      margin: 0 10px;
+      transition: color 0.3s ease;
+    }
+    .social-links a:hover {
+      color: #ff6f61;
+    }
   </style>
 </head>
 <body>
@@ -166,6 +173,11 @@
   <section id="contact">
     <h2>Contact Me</h2>
     <p>If you'd like to get in touch, feel free to reach out via the form below or contact me directly at my email.</p>
+    <div class="social-links">
+      <a href="https://www.linkedin.com/in/habibehpourmand" target="_blank">LinkedIn</a>
+      <a href="https://github.com/hpourmand" target="_blank">GitHub</a>
+      <a href="mailto:habibeh.pourmand@gmail.com">Email</a>
+    </div>
   </section>
 
   <footer>
