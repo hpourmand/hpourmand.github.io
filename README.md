@@ -184,6 +184,42 @@
         <p>Developed a dynamic Tableau dashboard to visualize KPIs, which improved decision-making speed for marketing and sales teams by 30%.</p>
         <a href="https://github.com/hpourmand/Emergency-911-calls"_blank" class="btn">View on GitHub</a>
     </div>
+
+  <!-- Project 4 -->
+    <div class="project">
+        <h3>Analyzing-Global-Trends-in-Programming-Database-Skills-and-IDE-Demand</h3>
+        <p>Built a predictive model using machine learning algorithms to forecast sales trends, leading to a 15% improvement in inventory management.</p>
+        <a href="https://github.com/hpourmand/Analyzing-Global-Trends-in-Programming-Database-Skills-and-IDE-Demand"_blank" class="btn">View on GitHub</a>
+    </div>
+
+
+
+      <!-- Project 5 -->
+    <div class="project">
+        <h3>U.S.-Stock-Market</h3>
+        <p>Built a predictive model using machine learning algorithms to forecast sales trends, leading to a 15% improvement in inventory management.</p>
+        <a href="https://github.com/hpourmand/U.S.-Stock-Market-Data" target="_blank" class="btn">View on GitHub</a>
+    </div>
+
+
+      <!-- Project 6 -->
+    <div class="project">
+        <h3>Olympics</h3>
+        <p>Built a predictive model using machine learning algorithms to forecast sales trends, leading to a 15% improvement in inventory management.</p>
+        <a href="https://github.com/hpourmand/Olympics" target="_blank" class="btn">View on GitHub</a>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    
 </section>
 
 
