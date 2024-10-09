@@ -180,8 +180,7 @@
     </div>
   </section>
 
-  <footer>
-    <p>Contact me: habibeh.pourmand@gmail.com</p>
+ 
   </footer>
 </body>
 </html>
