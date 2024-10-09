@@ -164,7 +164,7 @@
     <div class="project">
         <h3>Customer Retention Analysis</h3>
         <p>Analyzed customer behavior data using Python, SQL, and Tableau, resulting in an 18% increase in customer retention within 8 months.</p>
-        <a href="[https://github.com/yourusername/customer-retention-analysi](https://github.com/hpourmand/Customer-Shopping-Trends-)s" target="_blank" class="btn">View on GitHub</a>
+        <a href="https://github.com/hpourmand/Customer-Shopping-Trends-" target="_blank" class="btn">View on GitHub</a>
     </div>
     
     <!-- Project 2 -->
