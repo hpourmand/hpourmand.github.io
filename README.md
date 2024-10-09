@@ -1,21 +1,20 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio</title>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+
   <style>
     body {
-      font-family: 'Montserrat', sans-serif;
+      font-family: 'Raleway', sans-serif;
       margin: 0;
       padding: 0;
       box-sizing: border-box;
-      background-color: #f5f5f5;
-      color: #333;
+      background-color: #121212;
+      color: #fff;
     }
     h2 {
-      color: #2c3e50;
+      color: #ff6f61;
       text-align: center;
       margin-bottom: 30px;
     }
@@ -31,13 +30,13 @@
     a {
       text-decoration: none;
       color: #fff;
-      background-color: #3498db;
+      background-color: #ff6f61;
       padding: 10px 20px;
       border-radius: 5px;
       transition: background-color 0.3s ease;
     }
     a:hover {
-      background-color: #2980b9;
+      background-color: #ff3d2e;
     }
     .skill-bar-container {
       display: flex;
@@ -46,7 +45,7 @@
     }
     .skill-bar {
       position: relative;
-      background-color: #ecf0f1;
+      background-color: #333;
       border-radius: 10px;
       margin-bottom: 20px;
       height: 30px;
@@ -56,7 +55,7 @@
       margin-right: auto;
     }
     .skill {
-      background-color: #3498db;
+      background-color: #ff6f61;
       height: 100%;
       border-radius: 10px;
       text-align: left;
@@ -73,19 +72,19 @@
       gap: 20px;
     }
     .project {
-      background-color: #fff;
+      background-color: #222;
       border-radius: 10px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
       width: 280px;
       padding: 20px;
       transition: transform 0.3s ease, background-color 0.3s;
     }
     .project:hover {
       transform: scale(1.05);
-      background-color: #ecf0f1;
+      background-color: #333;
     }
     .project h3 {
-      background-color: #3498db;
+      background-color: #ff6f61;
       color: white;
       padding: 10px;
       margin: -20px -20px 15px -20px;
@@ -96,22 +95,22 @@
       margin: 15px 0;
     }
     footer {
-      background-color: #2c3e50;
+      background-color: #333;
       color: white;
       text-align: center;
       padding: 20px;
     }
     .social-links a {
       margin: 0 10px;
-      color: white;
       transition: color 0.3s ease;
     }
     .social-links a:hover {
-      color: #3498db;
+      color: #ff6f61;
     }
   </style>
 </head>
 <body>
+
   <section id="about">
     <h2>About Me</h2>
     <p>Hi, I’m Habibeh! I’m a data professional with a strong math background and over three years of experience as a Data Analyst. I specialize in transforming complex datasets into actionable insights that drive business success and innovation.
@@ -139,39 +138,43 @@
   <section class="project-container" id="projects">
     <h2>Projects</h2>
     <div class="project">
-      <h3>Customer Retention Analysis</h3>
-      <p>Analyzed customer behavior data using Python, SQL, and Tableau, resulting in an 18% increase in customer retention within 8 months.</p>
+      <h3>Customer Shopping Trends Analysis</h3>
+      <p>This project analyzes customer shopping trends using a dataset from www.kaggle.com. The analysis includes Exploratory Data Analysis (EDA), Behavioral Segmentation, and Predictive Modeling to uncover insights into customer behaviors, purchase patterns, and factors affecting customer satisfaction and loyalty.</p>
       <a href="https://github.com/hpourmand/Customer-Shopping-Trends-" target="_blank" class="btn">View on GitHub</a>
     </div>
     <div class="project">
-      <h3>Library</h3>
-      <p>Built a predictive model using machine learning algorithms to forecast sales trends, leading to a 15% improvement in inventory management.</p>
+      <h3>Analyzing Late Book Returns</h3>
+      <p>A local library is facing frequent late returns of books and needs help understanding why this is happening. They want to analyze the data to identify causes and find ways to reduce late returns.</p>
       <a href="https://github.com/hpourmand/Library" target="_blank" class="btn">View on GitHub</a>
     </div>
     <div class="project">
-      <h3>Emergency-911-calls</h3>
-      <p>Developed a dynamic Tableau dashboard to visualize KPIs, which improved decision-making speed for marketing and sales teams by 30%.</p>
+      <h3>Analysis of 911 Calls Dataset</h3>
+      <p>We analyze the '911 Calls' dataset from Kaggle, which includes information on emergency calls in the U.S., such as call types, timestamps, locations, and emergency details. Additionally, we conduct time series analysis on the dataset</p>
       <a href="https://github.com/hpourmand/Emergency-911-calls" target="_blank" class="btn">View on GitHub</a>
     </div>
     <div class="project">
-      <h3>Analyzing-Global-Trends-in-Programming-Database-Skills-and-IDE-Demand</h3>
-      <p>Built a predictive model using machine learning algorithms to forecast sales trends, leading to a 15% improvement in inventory management.</p>
+      <h3>Identifying Future Programming Skills Trends</h3>
+      <p>As Data Analysts for a global IT consulting firm, we will identify future skill requirements by analyzing data on in-demand programming skills. Our first task involves gathering information from job postings, training portals, and surveys to determine the top programming languages, database skills, and popular IDEs. We will scrape websites and access APIs to collect data in .csv, Excel, and database formats. After data wrangling, we’ll apply statistical analysis and create a dashboard using IBM Cognos Analytics, culminating in a presentation of our findings.</p>
       <a href="https://github.com/hpourmand/Analyzing-Global-Trends-in-Programming-Database-Skills-and-IDE-Demand" target="_blank" class="btn">View on GitHub</a>
     </div>
     <div class="project">
-      <h3>U.S.-Stock-Market</h3>
-      <p>Built a predictive model using machine learning algorithms to forecast sales trends, leading to a 15% improvement in inventory management.</p>
-      <a href="https://github.com/hpourmand/U.S.-Stock-Market-Data" target="_blank" class="btn">View on GitHub</a>
-    </div>
-    <div class="project">
-      <h3>Olympics</h3>
-      <p>Built a predictive model using machine learning algorithms to forecast sales trends, leading to a 15% improvement in inventory management.</p>
+      <h3>Olympic Performance Analysis by Country</h3>
+      <p>Analyzing each country's Olympic performance over time.</p>
       <a href="https://github.com/hpourmand/Olympics" target="_blank" class="btn">View on GitHub</a>
     </div>
   </section>
 
-  <section id="contact">
+ <section id="contact">
     <h2>Contact Me</h2>
-    <p>If you'd like to get in touch, feel free to reach out via any of the links below or contact me directly at my email.</p>
+    <p>If you'd like to get in touch, feel free to reach out via any of the links below.</p>
     <div class="social-links">
       <a href="https://www.linkedin.com/in/your-profile" target="_blank">LinkedIn</a>
+      <a href="https://github.com/your-profile" target="_blank">GitHub</a>
+      <a href="mailto:habibeh@example.com">Email</a>
+    </div>
+  </section>
+
+ 
+ 
+</body>
+</html>
