@@ -147,13 +147,13 @@
     <h2>Skills</h2>
     <div class="skill-bar-container">
       <div class="skill-bar">
-        <div class="skill" style="width: 90%;">Python</div>
+        <div class="skill" style="width: 95%;">Python</div>
       </div>
       <div class="skill-bar">
-        <div class="skill" style="width: 85%;">SQL</div>
+        <div class="skill" style="width: 90%;">SQL</div>
       </div>
       <div class="skill-bar">
-        <div class="skill" style="width: 80%;">Tableau</div>
+        <div class="skill" style="width: 90%;">Tableau</div>
       </div>
          <div class="skill-bar">
         <div class="skill" style="width: 90%;">Excel</div>
