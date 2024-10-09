@@ -163,8 +163,8 @@
       <a href="https://github.com/hpourmand/U.S.-Stock-Market-Data" target="_blank" class="btn">View on GitHub</a>
     </div>
     <div class="project">
-      <h3>Olympics</h3>
-      <p>Built a predictive model using machine learning algorithms to forecast sales trends, leading to a 15% improvement in inventory management.</p>
+      <h3>Olympic Performance Analysis by Country</h3>
+      <p>Analyzing each country's Olympic performance over time.</p>
       <a href="https://github.com/hpourmand/Olympics" target="_blank" class="btn">View on GitHub</a>
     </div>
   </section>
