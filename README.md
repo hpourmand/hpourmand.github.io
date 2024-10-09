@@ -25,6 +25,40 @@
       <p>Analyzed customer behavior data resulting in an 18% increase in retention.</p>
       <a href="#">View Project</a>
     </div>
+
+ <div class="project">
+      <h3>Customer Shopping Trends</h3>
+      <p>Analyzed customer behavior data resulting in an 18% increase in retention.</p>
+      <a href="#">View Project</a>
+    </div>
+
+     <div class="project">
+      <h3>Library</h3>
+      <p>Analyzed customer behavior data resulting in an 18% increase in retention.</p>
+      <a href="#">View Project</a>
+    </div>
+
+     <div class="project">
+      <h3>U.S.-Stock-Market-Data</h3>
+      <p>Analyzed customer behavior data resulting in an 18% increase in retention.</p>
+      <a href="#">View Project</a>
+    </div>
+
+    <div class="project">
+      <h3>Emergency-911-calls</h3>
+      <p>Analyzed customer behavior data resulting in an 18% increase in retention.</p>
+      <a href="#">View Project</a>
+    </div>
+
+
+     <div class="project">
+      <h3>Analyzing-Global-Trends-in-Programming-Database-Skills-and-IDE-Demand</h3>
+      <p>Analyzed customer behavior data resulting in an 18% increase in retention.</p>
+      <a href="#">View Project</a>
+    </div>
+
+
+    
   </section>
 
   <footer>
