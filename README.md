@@ -212,6 +212,29 @@
 
 
 
+<section id="contact">
+    <h2>Contact Me</h2>
+    <p>If you'd like to get in touch, feel free to reach out via the form below or contact me directly at my email.</p>
+
+    <!-- Optional Contact Form -->
+    <form action="YOUR_FORM_HANDLER_URL" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit" class="btn">Send Message</button>
+    </form>
+
+    <h3>Or reach me at:</h3>
+    <p>Email: <a href="mailto:habibeh.pourmand@gmail.com">habibeh.pourmand@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/yourlinkedinprofile" target="_blank">Your LinkedIn Profile</a></p>
+    <p>GitHub: <a href="https://github.com/yourusername" target="_blank">Your GitHub Profile</a></p>
+</section>
 
 
 
