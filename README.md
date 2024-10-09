@@ -148,8 +148,8 @@
       <a href="https://github.com/hpourmand/Library" target="_blank" class="btn">View on GitHub</a>
     </div>
     <div class="project">
-      <h3>Emergency-911-calls</h3>
-      <p>Developed a dynamic Tableau dashboard to visualize KPIs, which improved decision-making speed for marketing and sales teams by 30%.</p>
+      <h3>Analysis of 911 Calls Dataset</h3>
+      <p>We analyze the '911 Calls' dataset from Kaggle, which includes information on emergency calls in the U.S., such as call types, timestamps, locations, and emergency details. Additionally, we conduct time series analysis on the dataset</p>
       <a href="https://github.com/hpourmand/Emergency-911-calls" target="_blank" class="btn">View on GitHub</a>
     </div>
     <div class="project">
