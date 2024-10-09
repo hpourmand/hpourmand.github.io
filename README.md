@@ -12,18 +12,19 @@
       margin: 0;
       padding: 0;
       box-sizing: border-box;
-      background-color: #f4f4f4;
+      background-color: #f7f9fc;
       color: #333;
     }
 
-    h2, h3 {
-      color: #333;
+    h2 {
+      color: #007bff;
       text-align: center;
-      margin-top: 0;
+      margin-bottom: 30px;
     }
 
     section {
       padding: 60px 20px;
+      text-align: center;
     }
 
     a {
@@ -39,14 +40,21 @@
       background-color: #0056b3;
     }
 
-    /* Fancy Animations */
+    /* Skill Bars */
+    .skill-bar-container {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
     .skill-bar {
       position: relative;
       background-color: #e0e0e0;
       border-radius: 10px;
       margin-bottom: 20px;
-      height: 25px;
+      height: 30px;
       width: 80%;
+      max-width: 400px;
       margin-left: auto;
       margin-right: auto;
     }
@@ -55,51 +63,46 @@
       background-color: #007bff;
       height: 100%;
       border-radius: 10px;
-      text-align: center;
-      line-height: 25px;
+      text-align: left;
+      padding-left: 10px;
+      line-height: 30px;
       color: white;
       font-weight: 600;
-      animation: growSkill 2s ease-in-out;
+      transition: width 1.5s ease-in-out;
     }
 
-    @keyframes growSkill {
-      from { width: 0; }
-      to { width: 100%; }
+    /* Projects Section */
+    .project-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
     }
 
-    /* Card Style for Projects */
     .project {
-      display: inline-block;
-      background: #fff;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      background-color: #fff;
       border-radius: 10px;
-      margin: 20px;
-      width: 300px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      width: 280px;
+      padding: 20px;
       transition: transform 0.3s ease;
     }
 
     .project:hover {
-      transform: translateY(-10px);
+      transform: scale(1.05);
     }
 
     .project h3 {
       background-color: #007bff;
-      color: #fff;
-      padding: 15px;
+      color: white;
+      padding: 10px;
+      margin: -20px -20px 15px -20px;
       border-radius: 10px 10px 0 0;
     }
 
     .project p {
-      padding: 20px;
       font-size: 0.9rem;
-    }
-
-    .project a {
-      display: block;
-      text-align: center;
-      margin-bottom: 15px;
-      background-color: #ff6600;
-      padding: 10px;
+      margin: 15px 0;
     }
 
     /* Footer */
@@ -110,16 +113,15 @@
       padding: 20px;
     }
 
-    /* Smooth Scrolling */
-    html {
-      scroll-behavior: smooth;
-    }
-
-    /* Media Queries for Responsiveness */
+    /* Media Queries */
     @media (max-width: 768px) {
-      .project {
-        width: 100%;
-        margin: 10px 0;
+      .project-container {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .skill-bar {
+        width: 90%;
       }
     }
   </style>
@@ -130,60 +132,49 @@
   <!-- About Section -->
   <section id="about">
     <h2>About Me</h2>
-    <p style="text-align: center;">I am a data analyst passionate about turning raw data into actionable insights. I enjoy working with Python, SQL, and data visualization tools to deliver high-quality results.</p>
+    <p>I am a data analyst passionate about turning raw data into actionable insights. I enjoy working with Python, SQL, and data visualization tools to deliver high-quality results.</p>
   </section>
 
-  <!-- Skills Section with Animated Skill Bars -->
+  <!-- Skills Section -->
   <section id="skills">
     <h2>Skills</h2>
-    <div class="skill-bar">
-      <div class="skill" style="width: 90%;">Python</div>
-    </div>
-    <div class="skill-bar">
-      <div class="skill" style="width: 85%;">SQL</div>
-    </div>
-    <div class="skill-bar">
-      <div class="skill" style="width: 80%;">Tableau</div>
+    <div class="skill-bar-container">
+      <div class="skill-bar">
+        <div class="skill" style="width: 90%;">Python</div>
+      </div>
+      <div class="skill-bar">
+        <div class="skill" style="width: 85%;">SQL</div>
+      </div>
+      <div class="skill-bar">
+        <div class="skill" style="width: 80%;">Tableau</div>
+      </div>
     </div>
   </section>
 
-  <!-- Projects Section with Fancy Card Layouts -->
+  <!-- Projects Section -->
   <section id="projects">
     <h2>Projects</h2>
-    <div class="project">
-      <h3>Customer Retention Analysis</h3>
-      <p>Used Python and SQL to analyze customer behavior data, which led to an 18% increase in customer retention over 6 months.</p>
-      <a href="#">View Project</a>
-    </div>
-
-    <div class="project">
-      <h3>Customer Shopping Trends</h3>
-      <p>Identified shopping patterns using data visualization tools, leading to optimized marketing strategies and increased sales.</p>
-      <a href="#">View Project</a>
-    </div>
-
-    <div class="project">
-      <h3>Library Analytics</h3>
-      <p>Developed a dashboard in Tableau to analyze book lending trends, resulting in better inventory management for popular titles.</p>
-      <a href="#">View Project</a>
-    </div>
-
-    <div class="project">
-      <h3>U.S. Stock Market Data</h3>
-      <p>Utilized historical stock data to predict future trends and provided insights for investment strategies.</p>
-      <a href="#">View Project</a>
-    </div>
-
-    <div class="project">
-      <h3>Emergency 911 Calls</h3>
-      <p>Analyzed 911 call data to identify common emergencies, helping local authorities improve response times.</p>
-      <a href="#">View Project</a>
-    </div>
-
-    <div class="project">
-      <h3>Global Trends in Programming and Database Skills</h3>
-      <p>Analyzed global demand for programming languages and database technologies, influencing corporate training programs.</p>
-      <a href="#">View Project</a>
+    <div class="project-container">
+      <div class="project">
+        <h3>Customer Retention Analysis</h3>
+        <p>Analyzed customer behavior data resulting in an 18% increase in retention.</p>
+        <a href="#">View Project</a>
+      </div>
+      <div class="project">
+        <h3>Customer Shopping Trends</h3>
+        <p>Identified shopping patterns and optimized marketing strategies.</p>
+        <a href="#">View Project</a>
+      </div>
+      <div class="project">
+        <h3>Library Analytics</h3>
+        <p>Created a dashboard in Tableau to analyze library book trends.</p>
+        <a href="#">View Project</a>
+      </div>
+      <div class="project">
+        <h3>U.S. Stock Market Data</h3>
+        <p>Predicted stock trends using historical data and Python.</p>
+        <a href="#">View Project</a>
+      </div>
     </div>
   </section>
 
