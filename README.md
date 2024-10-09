@@ -138,7 +138,9 @@
   <!-- About Section -->
   <section id="about">
     <h2>About Me</h2>
-    <p>I am a data analyst passionate about turning raw data into actionable insights. I enjoy working with Python, SQL, and data visualization tools to deliver high-quality results.</p>
+    <p>Hi, I’m Habibeh! I’m a data professional with a strong math background and over three years of experience as a Data Analyst. I specialize in transforming complex datasets into actionable insights that drive business success and innovation.
+
+.</p>
   </section>
 
   <!-- Skills Section -->
