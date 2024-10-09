@@ -169,7 +169,7 @@
   </section>
 
   <footer>
-    <p>Contact me: habibeh@example.com</p>
+    <p>Contact me: habibeh.pourmand@gmail.com</p>
   </footer>
 </body>
 </html>
