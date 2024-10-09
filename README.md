@@ -27,6 +27,12 @@
       text-align: center;
     }
 
+    p {
+      margin-bottom: 40px;
+      font-size: 1.1rem;
+      line-height: 1.6;
+    }
+
     a {
       text-decoration: none;
       color: #fff;
