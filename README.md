@@ -4,18 +4,19 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio</title>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
   <style>
     body {
-      font-family: 'Montserrat', sans-serif;
+      font-family: 'Open Sans', sans-serif;
       margin: 0;
       padding: 0;
       box-sizing: border-box;
-      background-color: #f5f5f5;
+      background-color: #f9f9f9;
       color: #333;
     }
     h2 {
-      color: #2c3e50;
+      font-family: 'Lora', serif;
+      color: #333;
       text-align: center;
       margin-bottom: 30px;
     }
@@ -31,13 +32,13 @@
     a {
       text-decoration: none;
       color: #fff;
-      background-color: #3498db;
+      background-color: #007bff;
       padding: 10px 20px;
       border-radius: 5px;
       transition: background-color 0.3s ease;
     }
     a:hover {
-      background-color: #2980b9;
+      background-color: #0056b3;
     }
     .skill-bar-container {
       display: flex;
@@ -46,7 +47,7 @@
     }
     .skill-bar {
       position: relative;
-      background-color: #ecf0f1;
+      background-color: #e0e0e0;
       border-radius: 10px;
       margin-bottom: 20px;
       height: 30px;
@@ -56,7 +57,7 @@
       margin-right: auto;
     }
     .skill {
-      background-color: #3498db;
+      background-color: #007bff;
       height: 100%;
       border-radius: 10px;
       text-align: left;
@@ -82,10 +83,10 @@
     }
     .project:hover {
       transform: scale(1.05);
-      background-color: #ecf0f1;
+      background-color: #f0f0f0;
     }
     .project h3 {
-      background-color: #3498db;
+      background-color: #007bff;
       color: white;
       padding: 10px;
       margin: -20px -20px 15px -20px;
@@ -96,18 +97,17 @@
       margin: 15px 0;
     }
     footer {
-      background-color: #2c3e50;
+      background-color: #333;
       color: white;
       text-align: center;
       padding: 20px;
     }
     .social-links a {
       margin: 0 10px;
-      color: white;
       transition: color 0.3s ease;
     }
     .social-links a:hover {
-      color: #3498db;
+      color: #007bff;
     }
   </style>
 </head>
