@@ -110,7 +110,6 @@
   </style>
 </head>
 <body>
-  <h2>Habibeh Pourmand Portfolio</h2>
 
   <section id="about">
     <h2>About Me</h2>
