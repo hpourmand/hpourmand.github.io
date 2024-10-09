@@ -160,29 +160,28 @@
   <!-- Projects Section -->
   <section id="projects">
     <h2>Projects</h2>
-    <div class="project-container">
-      <div class="project">
+    <!-- Project 1 -->
+    <div class="project">
         <h3>Customer Retention Analysis</h3>
-        <p>Analyzed customer behavior data resulting in an 18% increase in retention.</p>
-        <a href="#">View Project</a>
-      </div>
-      <div class="project">
-        <h3>Customer Shopping Trends</h3>
-        <p>Identified shopping patterns and optimized marketing strategies.</p>
-        <a href="#">View Project</a>
-      </div>
-      <div class="project">
-        <h3>Library Analytics</h3>
-        <p>Created a dashboard in Tableau to analyze library book trends.</p>
-        <a href="#">View Project</a>
-      </div>
-      <div class="project">
-        <h3>U.S. Stock Market Data</h3>
-        <p>Predicted stock trends using historical data and Python.</p>
-        <a href="#">View Project</a>
-      </div>
+        <p>Analyzed customer behavior data using Python, SQL, and Tableau, resulting in an 18% increase in customer retention within 8 months.</p>
+        <a href="[https://github.com/yourusername/customer-retention-analysi](https://github.com/hpourmand/Customer-Shopping-Trends-)s" target="_blank" class="btn">View on GitHub</a>
     </div>
-  </section>
+    
+    <!-- Project 2 -->
+    <div class="project">
+        <h3>Sales Forecasting Model</h3>
+        <p>Built a predictive model using machine learning algorithms to forecast sales trends, leading to a 15% improvement in inventory management.</p>
+        <a href="https://github.com/yourusername/sales-forecasting-model" target="_blank" class="btn">View on GitHub</a>
+    </div>
+    
+    <!-- Project 3 -->
+    <div class="project">
+        <h3>Interactive Data Dashboard</h3>
+        <p>Developed a dynamic Tableau dashboard to visualize KPIs, which improved decision-making speed for marketing and sales teams by 30%.</p>
+        <a href="https://github.com/yourusername/data-dashboard" target="_blank" class="btn">View on GitHub</a>
+    </div>
+</section>
+
 
   <!-- Footer -->
   <footer>
