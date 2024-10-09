@@ -189,7 +189,8 @@
     <div class="project">
         <h3>Analyzing-Global-Trends-in-Programming-Database-Skills-and-IDE-Demand</h3>
         <p>Built a predictive model using machine learning algorithms to forecast sales trends, leading to a 15% improvement in inventory management.</p>
-        <a href="https://github.com/hpourmand/Analyzing-Global-Trends-in-Programming-Database-Skills-and-IDE-Demand"_blank" target="_blank" class="btn">View on GitHub</a>
+        <a href="https://github.com/hpourmand/Analyzing-Global-Trends-in-Programming-Database-Skills-and-IDE-Demand"
+        target="_blank" class="btn">View on GitHub</a>
     </div>
 
 
