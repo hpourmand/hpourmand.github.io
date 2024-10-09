@@ -155,6 +155,9 @@
       <div class="skill-bar">
         <div class="skill" style="width: 80%;">Tableau</div>
       </div>
+         <div class="skill-bar">
+        <div class="skill" style="width: 90%;">Excel</div>
+      </div>
     </div>
   </section>
 
