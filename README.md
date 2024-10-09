@@ -173,16 +173,16 @@
     
     <!-- Project 2 -->
     <div class="project">
-        <h3>Sales Forecasting Model</h3>
+        <h3>Library</h3>
         <p>Built a predictive model using machine learning algorithms to forecast sales trends, leading to a 15% improvement in inventory management.</p>
-        <a href="https://github.com/yourusername/sales-forecasting-model" target="_blank" class="btn">View on GitHub</a>
+        <a href="https://github.com/hpourmand/Library" target="_blank" class="btn">View on GitHub</a>
     </div>
     
     <!-- Project 3 -->
     <div class="project">
-        <h3>Interactive Data Dashboard</h3>
+        <h3>Emergency-911-calls</h3>
         <p>Developed a dynamic Tableau dashboard to visualize KPIs, which improved decision-making speed for marketing and sales teams by 30%.</p>
-        <a href="https://github.com/yourusername/data-dashboard" target="_blank" class="btn">View on GitHub</a>
+        <a href="https://github.com/hpourmand/Emergency-911-calls"_blank" class="btn">View on GitHub</a>
     </div>
 </section>
 
