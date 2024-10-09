@@ -139,8 +139,7 @@
   <section id="about">
     <h2>About Me</h2>
     <p>Hi, I’m Habibeh! I’m a data professional with a strong math background and over three years of experience as a Data Analyst. I specialize in transforming complex datasets into actionable insights that drive business success and innovation.
-
-.</p>
+</p>
   </section>
 
   <!-- Skills Section -->
