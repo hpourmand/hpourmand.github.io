@@ -180,6 +180,6 @@
   </section>
 
  
-  </footer>
+ 
 </body>
 </html>
