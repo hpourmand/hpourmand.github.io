@@ -4,33 +4,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Habibeh Pourmand Portfolio</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600&display=swap" rel="stylesheet">
   <style>
-    :root {
-      --main-bg-color: #f7f9fc;
-      --main-text-color: #333;
-      --main-link-color: #007bff;
-      --main-link-hover-color: #0056b3;
-      --main-skill-bg-color: #007bff;
-    }
-    [data-theme="dark"] {
-      --main-bg-color: #1e1e1e;
-      --main-text-color: #ccc;
-      --main-link-color: #007bff;
-      --main-link-hover-color: #0056b3;
-      --main-skill-bg-color: #007bff;
-    }
     body {
-      font-family: 'Poppins', sans-serif;
+      font-family: 'Raleway', sans-serif;
       margin: 0;
       padding: 0;
       box-sizing: border-box;
-      background-color: var(--main-bg-color);
-      color: var(--main-text-color);
-      transition: background-color 0.3s, color 0.3s;
+      background-color: #121212;
+      color: #fff;
     }
     h2 {
-      color: var(--main-link-color);
+      color: #ff6f61;
       text-align: center;
       margin-bottom: 30px;
     }
@@ -46,13 +31,13 @@
     a {
       text-decoration: none;
       color: #fff;
-      background-color: var(--main-link-color);
+      background-color: #ff6f61;
       padding: 10px 20px;
       border-radius: 5px;
       transition: background-color 0.3s ease;
     }
     a:hover {
-      background-color: var(--main-link-hover-color);
+      background-color: #ff3d2e;
     }
     .skill-bar-container {
       display: flex;
@@ -61,7 +46,7 @@
     }
     .skill-bar {
       position: relative;
-      background-color: #e0e0e0;
+      background-color: #333;
       border-radius: 10px;
       margin-bottom: 20px;
       height: 30px;
@@ -71,7 +56,7 @@
       margin-right: auto;
     }
     .skill {
-      background-color: var(--main-skill-bg-color);
+      background-color: #ff6f61;
       height: 100%;
       border-radius: 10px;
       text-align: left;
@@ -88,19 +73,19 @@
       gap: 20px;
     }
     .project {
-      background-color: #fff;
+      background-color: #222;
       border-radius: 10px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
       width: 280px;
       padding: 20px;
       transition: transform 0.3s ease, background-color 0.3s;
     }
     .project:hover {
       transform: scale(1.05);
-      background-color: #f0f0f0;
+      background-color: #333;
     }
     .project h3 {
-      background-color: var(--main-link-color);
+      background-color: #ff6f61;
       color: white;
       padding: 10px;
       margin: -20px -20px 15px -20px;
@@ -111,26 +96,14 @@
       margin: 15px 0;
     }
     footer {
-      background-color: var(--main-text-color);
+      background-color: #333;
       color: white;
       text-align: center;
       padding: 20px;
     }
-    .dark-toggle {
-      position: absolute;
-      top: 20px;
-      right: 20px;
-      cursor: pointer;
-      background-color: var(--main-link-color);
-      color: white;
-      padding: 10px;
-      border: none;
-      border-radius: 5px;
-    }
   </style>
 </head>
 <body>
-  <button class="dark-toggle" onclick="toggleDarkMode()">Toggle Dark Mode</button>
   <h2>Habibeh Pourmand Portfolio</h2>
 
   <section id="about">
@@ -181,4 +154,23 @@
     </div>
     <div class="project">
       <h3>U.S.-Stock-Market</h3>
-      <p>Built a predictive model using machine learning algorithms to forecast sales trends, leading to a 15% improvement in inventory management
+      <p>Built a predictive model using machine learning algorithms to forecast sales trends, leading to a 15% improvement in inventory management.</p>
+      <a href="https://github.com/hpourmand/U.S.-Stock-Market-Data" target="_blank" class="btn">View on GitHub</a>
+    </div>
+    <div class="project">
+      <h3>Olympics</h3>
+      <p>Built a predictive model using machine learning algorithms to forecast sales trends, leading to a 15% improvement in inventory management.</p>
+      <a href="https://github.com/hpourmand/Olympics" target="_blank" class="btn">View on GitHub</a>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>If you'd like to get in touch, feel free to reach out via the form below or contact me directly at my email.</p>
+  </section>
+
+  <footer>
+    <p>Contact me: habibeh@example.com</p>
+  </footer>
+</body>
+</html>
