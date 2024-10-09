@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -10,18 +11,15 @@
       margin: 0;
       padding: 0;
       box-sizing: border-box;
-      background-color: #1e1e1e;
-      color: #f2f2f2;
-      line-height: 1.6;
+      background: linear-gradient(to right, #ece9e6, #ffffff);
+      color: #333;
     }
     h2 {
       font-family: 'Lora', serif;
-      color: #f2f2f2;
+      color: #2c3e50;
       text-align: center;
       margin: 30px 0;
-      font-size: 2.5rem;
-      border-bottom: 2px solid #007bff;
-      padding-bottom: 10px;
+      text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
     }
     section {
       padding: 60px 20px;
@@ -30,6 +28,7 @@
     p {
       margin-bottom: 40px;
       font-size: 1.1rem;
+      line-height: 1.6;
       max-width: 800px;
       margin-left: auto;
       margin-right: auto;
@@ -37,14 +36,14 @@
     a {
       text-decoration: none;
       color: #fff;
-      background-color: #007bff;
-      padding: 12px 24px;
+      background-color: #2980b9;
+      padding: 12px 25px;
       border-radius: 5px;
+      transition: background-color 0.3s ease, transform 0.3s;
       font-weight: 600;
-      transition: background-color 0.3s ease, transform 0.3s ease;
     }
     a:hover {
-      background-color: #0056b3;
+      background-color: #3498db;
       transform: translateY(-2px);
     }
     .skill-bar-container {
@@ -54,7 +53,7 @@
     }
     .skill-bar {
       position: relative;
-      background-color: #333;
+      background-color: #e0e0e0;
       border-radius: 10px;
       margin-bottom: 20px;
       height: 30px;
@@ -64,7 +63,7 @@
       margin-right: auto;
     }
     .skill {
-      background-color: #007bff;
+      background-color: #2980b9;
       height: 100%;
       border-radius: 10px;
       text-align: left;
@@ -79,53 +78,49 @@
       flex-wrap: wrap;
       justify-content: center;
       gap: 20px;
-      margin-top: 20px;
     }
     .project {
-      background-color: #2a2a2a;
+      background-color: #fff;
       border-radius: 10px;
-      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
       width: 280px;
       padding: 20px;
       transition: transform 0.3s ease, background-color 0.3s;
     }
     .project:hover {
       transform: scale(1.05);
-      background-color: #3c3c3c;
+      background-color: #f7f7f7;
     }
     .project h3 {
-      color: #007bff;
-      margin-bottom: 10px;
+      background-color: #2980b9;
+      color: white;
+      padding: 10px;
+      margin: -20px -20px 15px -20px;
+      border-radius: 10px 10px 0 0;
     }
     .project p {
       font-size: 0.9rem;
       margin: 15px 0;
-      color: #ccc;
     }
     footer {
-      background-color: #333;
+      background-color: #2c3e50;
       color: white;
       text-align: center;
       padding: 20px;
-      position: relative;
-      bottom: 0;
-      width: 100%;
     }
     .social-links a {
       margin: 0 10px;
       transition: color 0.3s ease;
-      color: #007bff;
     }
     .social-links a:hover {
-      color: #0056b3;
+      color: #3498db;
     }
   </style>
 </head>
 <body>
   <section id="about">
     <h2>About Me</h2>
-    <p>Hi, I’m Habibeh! I’m a data professional with a strong math background and over three years of experience as a Data Analyst. I specialize in transforming complex datasets into actionable insights that drive business success and innovation.
-    </p>
+    <p>Hi, I’m Habibeh! I’m a data professional with a strong math background and over three years of experience as a Data Analyst. I specialize in transforming complex datasets into actionable insights that drive business success and innovation.</p>
   </section>
 
   <section id="skills">
@@ -164,12 +159,12 @@
       <a href="https://github.com/hpourmand/Emergency-911-calls" target="_blank" class="btn">View on GitHub</a>
     </div>
     <div class="project">
-      <h3>Analyzing Global Trends</h3>
+      <h3>Analyzing-Global-Trends-in-Programming-Database-Skills-and-IDE-Demand</h3>
       <p>Built a predictive model using machine learning algorithms to forecast sales trends, leading to a 15% improvement in inventory management.</p>
       <a href="https://github.com/hpourmand/Analyzing-Global-Trends-in-Programming-Database-Skills-and-IDE-Demand" target="_blank" class="btn">View on GitHub</a>
     </div>
     <div class="project">
-      <h3>U.S. Stock Market</h3>
+      <h3>U.S.-Stock-Market</h3>
       <p>Built a predictive model using machine learning algorithms to forecast sales trends, leading to a 15% improvement in inventory management.</p>
       <a href="https://github.com/hpourmand/U.S.-Stock-Market-Data" target="_blank" class="btn">View on GitHub</a>
     </div>
@@ -194,3 +189,4 @@
   </footer>
 </body>
 </html>
+
