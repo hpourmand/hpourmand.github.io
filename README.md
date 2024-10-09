@@ -1,4 +1,3 @@
-
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -11,14 +10,18 @@
       margin: 0;
       padding: 0;
       box-sizing: border-box;
-      background-color: #f9f9f9;
-      color: #333;
+      background-color: #1e1e1e;
+      color: #f2f2f2;
+      line-height: 1.6;
     }
     h2 {
       font-family: 'Lora', serif;
-      color: #333;
+      color: #f2f2f2;
       text-align: center;
-      margin-bottom: 30px;
+      margin: 30px 0;
+      font-size: 2.5rem;
+      border-bottom: 2px solid #007bff;
+      padding-bottom: 10px;
     }
     section {
       padding: 60px 20px;
@@ -27,18 +30,22 @@
     p {
       margin-bottom: 40px;
       font-size: 1.1rem;
-      line-height: 1.6;
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
     }
     a {
       text-decoration: none;
       color: #fff;
       background-color: #007bff;
-      padding: 10px 20px;
+      padding: 12px 24px;
       border-radius: 5px;
-      transition: background-color 0.3s ease;
+      font-weight: 600;
+      transition: background-color 0.3s ease, transform 0.3s ease;
     }
     a:hover {
       background-color: #0056b3;
+      transform: translateY(-2px);
     }
     .skill-bar-container {
       display: flex;
@@ -47,7 +54,7 @@
     }
     .skill-bar {
       position: relative;
-      background-color: #e0e0e0;
+      background-color: #333;
       border-radius: 10px;
       margin-bottom: 20px;
       height: 30px;
@@ -72,42 +79,45 @@
       flex-wrap: wrap;
       justify-content: center;
       gap: 20px;
+      margin-top: 20px;
     }
     .project {
-      background-color: #fff;
+      background-color: #2a2a2a;
       border-radius: 10px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
       width: 280px;
       padding: 20px;
       transition: transform 0.3s ease, background-color 0.3s;
     }
     .project:hover {
       transform: scale(1.05);
-      background-color: #f0f0f0;
+      background-color: #3c3c3c;
     }
     .project h3 {
-      background-color: #007bff;
-      color: white;
-      padding: 10px;
-      margin: -20px -20px 15px -20px;
-      border-radius: 10px 10px 0 0;
+      color: #007bff;
+      margin-bottom: 10px;
     }
     .project p {
       font-size: 0.9rem;
       margin: 15px 0;
+      color: #ccc;
     }
     footer {
       background-color: #333;
       color: white;
       text-align: center;
       padding: 20px;
+      position: relative;
+      bottom: 0;
+      width: 100%;
     }
     .social-links a {
       margin: 0 10px;
       transition: color 0.3s ease;
+      color: #007bff;
     }
     .social-links a:hover {
-      color: #007bff;
+      color: #0056b3;
     }
   </style>
 </head>
@@ -154,12 +164,12 @@
       <a href="https://github.com/hpourmand/Emergency-911-calls" target="_blank" class="btn">View on GitHub</a>
     </div>
     <div class="project">
-      <h3>Analyzing-Global-Trends-in-Programming-Database-Skills-and-IDE-Demand</h3>
+      <h3>Analyzing Global Trends</h3>
       <p>Built a predictive model using machine learning algorithms to forecast sales trends, leading to a 15% improvement in inventory management.</p>
       <a href="https://github.com/hpourmand/Analyzing-Global-Trends-in-Programming-Database-Skills-and-IDE-Demand" target="_blank" class="btn">View on GitHub</a>
     </div>
     <div class="project">
-      <h3>U.S.-Stock-Market</h3>
+      <h3>U.S. Stock Market</h3>
       <p>Built a predictive model using machine learning algorithms to forecast sales trends, leading to a 15% improvement in inventory management.</p>
       <a href="https://github.com/hpourmand/U.S.-Stock-Market-Data" target="_blank" class="btn">View on GitHub</a>
     </div>
@@ -175,3 +185,12 @@
     <p>If you'd like to get in touch, feel free to reach out via any of the links below or contact me directly at my email.</p>
     <div class="social-links">
       <a href="https://www.linkedin.com/in/your-profile" target="_blank">LinkedIn</a>
+      <a href="mailto:habibeh.pourmand@gmail.com">Email</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Habibeh Pourmand. All rights reserved.</p>
+  </footer>
+</body>
+</html>
