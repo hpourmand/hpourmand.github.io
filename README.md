@@ -55,7 +55,7 @@
       margin-right: auto;
     }
     .skill {
-      background-color: #ff6f61;
+      background-color: #FFFFE0;
       height: 100%;
       border-radius: 10px;
       text-align: left;
