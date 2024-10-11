@@ -5,13 +5,17 @@
 
   <style>
     body {
-      font-family: 'Raleway', sans-serif;
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      background-color: #121212;
-      color: #fff;
-    }
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #121212;
+  color: #fff;
+  background-image: url('/Users/hpourmand/Desktop.prof.jpg'); /* Add your image path or URL */
+  background-size: cover; /* Ensures the image covers the whole page */
+  background-position: center; /* Centers the image */
+  background-attachment: fixed; /* Keeps the background in place during scroll */
+}
     nav {
       background-color: #333;
       padding: 15px 0;
