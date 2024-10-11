@@ -1,4 +1,3 @@
-
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -12,6 +11,33 @@
       box-sizing: border-box;
       background-color: #121212;
       color: #fff;
+    }
+    nav {
+      background-color: #333;
+      padding: 15px 0;
+      position: sticky;
+      top: 0;
+      width: 100%;
+      z-index: 1000;
+    }
+    nav ul {
+      list-style-type: none;
+      display: flex;
+      justify-content: center;
+      margin: 0;
+      padding: 0;
+    }
+    nav ul li {
+      margin: 0 20px;
+    }
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+    nav ul li a:hover {
+      color: #ff6f61;
     }
     h2 {
       color: #ff6f61;
@@ -111,12 +137,24 @@
 </head>
 <body>
 
+  <!-- Navigation Bar -->
+  <nav>
+    <ul>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact Me</a></li>
+    </ul>
+  </nav>
+
+  <!-- About Section -->
   <section id="about">
     <h2>About Me</h2>
     <p>Hi, I’m Habibeh! I’m a data professional with a strong math background and over three years of experience as a Data Analyst. I specialize in transforming complex datasets into actionable insights that drive business success and innovation.
     </p>
   </section>
 
+  <!-- Skills Section -->
   <section id="skills">
     <h2>Skills</h2>
     <div class="skill-bar-container">
@@ -144,6 +182,7 @@
     </div>
   </section>
 
+  <!-- Projects Section -->
   <section class="project-container" id="projects">
     <h2>Projects</h2>
     <div class="project">
@@ -173,17 +212,9 @@
     </div>
   </section>
 
- <section id="contact">
+  <!-- Contact Section -->
+  <section id="contact">
     <h2>Contact Me</h2>
     <p>If you'd like to get in touch, feel free to reach out via any of the links below.</p>
     <div class="social-links">
-      <a href="https://www.linkedin.com/in/your-profile" target="_blank">LinkedIn</a>
-      <a href="https://github.com/your-profile" target="_blank">GitHub</a>
-      <a href="mailto:habibeh@example.com">Email</a>
-    </div>
-  </section>
-
- 
- 
-</body>
-</html>
+      <a href="https://www.linkedin.com/in/your-profile" target="_blank">LinkedIn
