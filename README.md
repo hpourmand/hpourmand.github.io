@@ -14,7 +14,7 @@
       color: #fff;
     }
     h2 {
-      color: lightyellow;
+      color: Purpple;
       text-align: center;
       margin-bottom: 30px;
     }
