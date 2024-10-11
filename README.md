@@ -10,7 +10,7 @@
       margin: 0;
       padding: 0;
       box-sizing: border-box;
-      background-color: bluenavy;
+      background-color:  #000080;
       color: #fff;
     }
     h2 {
