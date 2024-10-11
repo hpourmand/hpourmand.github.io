@@ -14,7 +14,7 @@
       color: #fff;
     }
     h2 {
-      color: #ff6f61;
+      color: lightyellow;
       text-align: center;
       margin-bottom: 30px;
     }
