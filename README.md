@@ -18,6 +18,7 @@
       background-position: center;
       background-attachment: fixed;
     }
+
     nav {
       background-color: #ffffff; /* White background for the navbar */
       padding: 15px 0;
@@ -26,6 +27,7 @@
       width: 100%;
       z-index: 1000;
     }
+
     nav ul {
       list-style-type: none;
       display: flex;
@@ -33,33 +35,40 @@
       margin: 0;
       padding: 0;
     }
+
     nav ul li {
       margin: 0 20px;
     }
+
     nav ul li a {
       color: #006400; /* Dark green links */
       text-decoration: none;
       font-weight: bold;
       transition: color 0.3s ease;
     }
+
     nav ul li a:hover {
       color: #008000; /* Lighter green on hover */
     }
+
     h2 {
       color: #006400; /* Dark green headings */
       text-align: center;
       margin-bottom: 30px;
     }
+
     section {
       padding: 60px 20px;
       text-align: center;
-      background-color: #ffffff; /* White background for sections */
+      background-color: rgba(255, 255, 255, 0.8); /* White background with slight opacity */
     }
+
     p {
       margin-bottom: 40px;
       font-size: 1.1rem;
       line-height: 1.6;
     }
+
     a {
       text-decoration: none;
       color: white;
@@ -68,14 +77,17 @@
       border-radius: 5px;
       transition: background-color 0.3s ease;
     }
+
     a:hover {
       background-color: #008000; /* Lighter green on hover */
     }
+
     .skill-bar-container {
       display: flex;
       justify-content: center;
       flex-wrap: wrap;
     }
+
     .skill-bar {
       position: relative;
       background-color: #ddd; /* Light background for skill bars */
@@ -87,6 +99,7 @@
       margin-left: auto;
       margin-right: auto;
     }
+
     .skill {
       background-color: #006400; /* Dark green for the skill bars */
       height: 100%;
@@ -94,16 +107,18 @@
       text-align: left;
       padding-left: 10px;
       line-height: 30px;
-      color: white;
+      color: white; /* Ensuring white text for visibility */
       font-weight: 600;
       transition: width 1.5s ease-in-out;
     }
+
     .project-container {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
       gap: 20px;
     }
+
     .project {
       background-color: #ffffff; /* White background for project cards */
       border: 1px solid #ddd; /* Light border */
@@ -113,10 +128,12 @@
       padding: 20px;
       transition: transform 0.3s ease, background-color 0.3s;
     }
+
     .project:hover {
       transform: scale(1.05);
       background-color: #f0f0f0; /* Light hover effect */
     }
+
     .project h3 {
       background-color: #006400; /* Dark green for project headers */
       color: white;
@@ -124,17 +141,20 @@
       margin: -20px -20px 15px -20px;
       border-radius: 10px 10px 0 0;
     }
+
     footer {
       background-color: #ffffff; /* White footer */
       color: #333;
       text-align: center;
       padding: 20px;
     }
+
     .social-links a {
       margin: 0 10px;
       color: #006400; /* Green social links */
       transition: color 0.3s ease;
     }
+
     .social-links a:hover {
       color: #008000; /* Lighter green on hover */
     }
@@ -206,13 +226,8 @@
     </div>
     <div class="project">
       <h3>Identifying Future Programming Skills Trends</h3>
-      <p>As Data Analysts for a global IT consulting firm, we will identify future skill requirements by analyzing data on in-demand programming skills. Our first task involves gathering information from job postings, training portals, and surveys to determine the top programming languages, database skills, and popular IDEs.</p>
-      <a href="https://github.com/hpourmand/Analyzing-Global-Trends-in-Programming-Database-Skills-and-IDE-Demand" target="_blank" class="btn">View on GitHub</a>
-    </div>
-    <div class="project">
-      <h3>Olympic Performance Analysis by Country</h3>
-      <p>Analyzing each country's Olympic performance over time.</p>
-      <a href="https://github.com/hpourmand/Olympics" target="_blank" class="btn">View on GitHub</a>
+      <p>This project identifies future skill trends in programming languages, databases, and IDEs by analyzing data from various sources including job postings, surveys, and training portals. The final output includes interactive visualizations and predictive models of future trends.</p>
+      <a href="https://github.com/hpourmand/Future-Skills-Trends" target="_blank" class="btn">View on GitHub</a>
     </div>
   </section>
 
