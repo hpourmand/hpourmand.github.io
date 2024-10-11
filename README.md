@@ -6,15 +6,15 @@
 
   <style>
     body {
-      font-family: 'Arial', sans-serif;
+      font-family: 'Raleway', sans-serif;
       margin: 0;
       padding: 0;
       box-sizing: border-box;
-      background-color:  #000080;
+      background-color: #121212;
       color: #fff;
     }
     h2 {
-      color: Purpple;
+      color: #ff6f61;
       text-align: center;
       margin-bottom: 30px;
     }
@@ -55,7 +55,7 @@
       margin-right: auto;
     }
     .skill {
-      background-color: #FFFFE0;
+      background-color: #ff6f61;
       height: 100%;
       border-radius: 10px;
       text-align: left;
