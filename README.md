@@ -174,7 +174,16 @@
     </div>
   </section>
 
-
+<section id="contact">
+    <h2>Contact Me</h2>
+    <p>If you'd like to get in touch, feel free to reach out via any of the links below.</p>
+    <div class="social-links">
+      <a href="https://www.linkedin.com/in/your-profile" target="_blank">LinkedIn</a>
+      <a href="https://github.com/your-profile" target="_blank">GitHub</a>
+      <a href="mailto:habibeh@example.com">Email</a>
+    </div>
+  </section>
+  
   <footer>
     <p>© 2024 Habibeh Pourmand</p>
   </footer>
