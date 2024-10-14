@@ -86,8 +86,9 @@
       background-color: #008080; /* Teal */
       color: white;
       padding: 10px;
-      margin: -20px -20px 15px -20px;
+      margin: 0 -20px 15px -20px; /* Remove top margin and adjust */
       border-radius: 10px 10px 0 0;
+      display: block; /* Ensure it's on a separate line */
     }
     .project p {
       font-size: 0.9rem;
@@ -102,8 +103,8 @@
     }
     .social-links a {
       margin: 0 10px;
-      color: #008080;
-      transition: color 0.3s ease;
+      color: #fff; /* Make text white for better visibility */
+      font-weight: bold; /* Bold text */
     }
     .social-links a:hover {
       color: #005f5f;
@@ -155,7 +156,7 @@
     <!-- Add other projects similarly -->
   </section>
 
- <section id="contact">
+  <section id="contact">
     <h2>Contact Me</h2>
     <p>If you'd like to get in touch, feel free to reach out via any of the links below.</p>
     <div class="social-links">
