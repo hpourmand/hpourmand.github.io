@@ -77,11 +77,6 @@
       width: 280px;
       padding: 20px;
       transition: transform 0.3s ease, background-color 0.3s;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      gap: 10px;
-      flex-direction: row;
     }
     .project:hover {
       transform: scale(1.05);
@@ -91,24 +86,14 @@
       background-color: #008080; /* Teal */
       color: white;
       padding: 10px;
-      border-radius: 10px;
-      margin: 0; /* Remove margin to align */
-      font-size: 1rem;
-      flex-shrink: 0;
-      white-space: nowrap;
+      margin: 0 -20px 15px -20px; /* Remove top margin and adjust */
+      border-radius: 10px 10px 0 0;
+      display: block; /* Ensure it's on a separate line */
     }
     .project p {
       font-size: 0.9rem;
-      margin: 0 10px; /* Adjust spacing */
+      margin: 15px 0;
       color: #333;
-      flex-grow: 1;
-      text-align: left;
-    }
-    .project .btn {
-      margin-top: 0; /* Remove extra space */
-      padding: 10px 15px;
-      text-align: center;
-      white-space: nowrap;
     }
     footer {
       background-color: #005f5f; /* Darker Teal */
@@ -118,8 +103,8 @@
     }
     .social-links a {
       margin: 0 10px;
-      color: #008080;
-      transition: color 0.3s ease;
+      color: #fff; /* Make text white for better visibility */
+      font-weight: bold; /* Bold text */
     }
     .social-links a:hover {
       color: #005f5f;
