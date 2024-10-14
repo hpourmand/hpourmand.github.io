@@ -86,9 +86,8 @@
       background-color: #008080; /* Teal */
       color: white;
       padding: 10px;
-      margin: 0 -20px 15px -20px; /* Remove top margin and adjust */
+      margin: -20px -20px 15px -20px;
       border-radius: 10px 10px 0 0;
-      display: block; /* Ensure it's on a separate line */
     }
     .project p {
       font-size: 0.9rem;
