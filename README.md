@@ -77,6 +77,11 @@
       width: 280px;
       padding: 20px;
       transition: transform 0.3s ease, background-color 0.3s;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 10px;
+      flex-direction: row;
     }
     .project:hover {
       transform: scale(1.05);
@@ -86,14 +91,24 @@
       background-color: #008080; /* Teal */
       color: white;
       padding: 10px;
-      margin: 0 -20px 15px -20px; /* Remove top margin and adjust */
-      border-radius: 10px 10px 0 0;
-      display: block; /* Ensure it's on a separate line */
+      border-radius: 10px;
+      margin: 0; /* Remove margin to align */
+      font-size: 1rem;
+      flex-shrink: 0;
+      white-space: nowrap;
     }
     .project p {
       font-size: 0.9rem;
-      margin: 15px 0;
+      margin: 0 10px; /* Adjust spacing */
       color: #333;
+      flex-grow: 1;
+      text-align: left;
+    }
+    .project .btn {
+      margin-top: 0; /* Remove extra space */
+      padding: 10px 15px;
+      text-align: center;
+      white-space: nowrap;
     }
     footer {
       background-color: #005f5f; /* Darker Teal */
@@ -103,8 +118,8 @@
     }
     .social-links a {
       margin: 0 10px;
-      color: #fff; /* Make text white for better visibility */
-      font-weight: bold; /* Bold text */
+      color: #008080;
+      transition: color 0.3s ease;
     }
     .social-links a:hover {
       color: #005f5f;
@@ -149,29 +164,20 @@
   <section class="project-container" id="projects">
     <h2>Projects</h2>
     <div class="project">
-        <h3>Customer Shopping Trends Analysis</h3>
+      <h3>Customer Shopping Trends Analysis</h3>
       <p>This project analyzes customer shopping trends using a dataset from www.kaggle.com. The analysis includes Exploratory Data Analysis (EDA), Behavioral Segmentation, and Predictive Modeling to uncover insights into customer behaviors, purchase patterns, and factors affecting customer satisfaction and loyalty.</p>
       <a href="https://github.com/hpourmand/Customer-Shopping-Trends-" target="_blank" class="btn">View on GitHub</a>
     </div>
-    <div class="project">
-      <h3>Analyzing Late Book Returns</h3>
-      <p>A local library is facing frequent late returns of books and needs help understanding why this is happening. They want to analyze the data to identify causes and find ways to reduce late returns.</p>
-      <a href="https://github.com/hpourmand/Library" target="_blank" class="btn">View on GitHub</a>
-    </div>
-    <div class="project">
-      <h3>Analysis of 911 Calls Dataset</h3>
-      <p>We analyze the '911 Calls' dataset from Kaggle, which includes information on emergency calls in the U.S., such as call types, timestamps, locations, and emergency details. Additionally, we conduct time series analysis on the dataset</p>
-      <a href="https://github.com/hpourmand/Emergency-911-calls" target="_blank" class="btn">View on GitHub</a>
-    </div>
-    <div class="project">
-      <h3>Identifying Future Programming Skills Trends</h3>
-      <p>As Data Analysts for a global IT consulting firm, we will identify future skill requirements by analyzing data on in-demand programming skills. Our first task involves gathering information from job postings, training portals, and surveys to determine the top programming languages, database skills, and popular IDEs. We will scrape websites and access APIs to collect data in .csv, Excel, and database formats. After data wrangling, we’ll apply statistical analysis and create a dashboard using IBM Cognos Analytics, culminating in a presentation of our findings.</p>
-      <a href="https://github.com/hpourmand/Analyzing-Global-Trends-in-Programming-Database-Skills-and-IDE-Demand" target="_blank" class="btn">View on GitHub</a>
-    </div>
-    <div class="project">
-      <h3>Olympic Performance Analysis by Country</h3>
-      <p>Analyzing each country's Olympic performance over time.</p>
-      <a href="https://github.com/hpourmand/Olympics" target="_blank" class="btn">View on GitHub</a>
+    <!-- Add other projects similarly -->
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>If you'd like to get in touch, feel free to reach out via any of the links below.</p>
+    <div class="social-links">
+      <a href="https://www.linkedin.com/in/your-profile" target="_blank">LinkedIn</a>
+      <a href="https://github.com/your-profile" target="_blank">GitHub</a>
+      <a href="mailto:habibeh@example.com">Email</a>
     </div>
   </section>
 
