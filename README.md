@@ -180,7 +180,15 @@
   <!-- About Me Section -->
   <section id="about">
     <h2>About Me</h2>
-    <p>Hello! I'm Habibeh Pourmand, a data analyst and researcher with a passion for uncovering insights from data and presenting them through clear, actionable visualizations. With a Ph.D. in Mathematics and over 3 years of experience in data analytics, I enjoy working on complex problems and developing data-driven solutions.</p>
+    <p>
+      Hi, I'm Habibeh Pourmand, a data scientist and researcher based in Toronto with a deep interest in using data to drive decision-making. 
+      I have a Ph.D. in Mathematics and more than 3 years of experience working in various data analyst roles, 
+      where I specialize in statistical modeling, machine learning, and data visualization.
+    </p>
+    <p>
+      My background includes both academic research and industry projects, where I have applied my expertise in Python, SQL, Tableau, 
+      and Power BI to solve complex problems. When I'm not working with data, I enjoy learning about new developments in data science and teaching mathematics.
+    </p>
   </section>
 
   <!-- Tech Section -->
