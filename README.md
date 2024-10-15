@@ -25,10 +25,11 @@
 
     nav ul {
       list-style: none;
-      display: flex;
-      justify-content: center;
+      display: flex; /* Flexbox to align in one line */
+      justify-content: center; /* Centers the nav items */
+      align-items: center; /* Aligns them vertically in the middle */
       margin: 0;
-      padding: 15px 0;
+      padding: 0;
     }
 
     nav ul li {
