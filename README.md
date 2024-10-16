@@ -240,7 +240,7 @@
 
     <h3 class="sub-heading">Publications</h3>
     <ul>
-      <li>Pourmand, H., et al. (2022). <a href="[https://link-to-publication.com](https://www.sciencedirect.com/science/article/pii/S0022039622001188?casa_token=LbO1bhUq56IAAAAA:Yw9GRUtDaevK5DdLiMmaTsZTRooPU3LfY_0-jo6bmNPXARAfnej6tOtYkFJkYAY2M8CqdN7GHw)" target="_blank">On the Properties of Mean Orbital Pseudometric 1</a></li>
+      <li>Pourmand, H., et al. (2022). <a href="[https://link-to-publication.com](https://www.sciencedirect.com/science/article/pii/S0022039622001188?casa_token=LbO1bhUq56IAAAAA:Yw9GRUtDaevK5DdLiMmaTsZTRooPU3LfY_0-jo6bmNPXARAfnej6tOtYkFJkYAY2M8CqdN7GHw)" target="_blank">On the Properties of Mean Orbital Pseudometric </a></li>
     </ul>
 
     <h3 class="sub-heading">Talks</h3>
