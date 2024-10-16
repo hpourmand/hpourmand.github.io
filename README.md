@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -9,102 +8,153 @@
       margin: 0;
       padding: 0;
       box-sizing: border-box;
-      background-color: #f4f4f9; /* Light Gray */
-      color: #333; /* Darker Text */
+      background-color: #f4f4f9;
+      color: #333;
     }
-    header {
+
+    /* Navigation Bar */
+    nav {
       background-color: #008080; /* Teal */
-      color: white;
-      padding: 20px 0;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow under nav */
       position: fixed;
-      width: 100%;
       top: 0;
-      left: 0;
+      width: 100%;
       z-index: 1000;
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Transition effect */
     }
+
     nav ul {
       list-style: none;
-      margin: 0;
-      padding: 0;
       display: flex;
       justify-content: center;
+      margin: 0;
+      padding: 15px 0;
     }
+
     nav ul li {
-      margin: 0 15px;
+      margin: 0 25px;
     }
+
     nav ul li a {
-      text-decoration: none;
       color: white;
+      text-decoration: none;
       font-size: 1.2rem;
-      padding: 5px 10px;
+      padding: 8px 15px;
+      transition: background-color 0.3s ease, color 0.3s ease; /* Smooth hover transitions */
+      border-radius: 20px;
     }
+
     nav ul li a:hover {
-      background-color: #005f5f; /* Darker Teal */
-      border-radius: 5px;
+      background-color: #005f5f; /* Darker teal */
+      color: #f4f4f9; /* Light gray text */
     }
+
+    /* Sticky Effect */
+    .sticky {
+      background-color: rgba(0, 128, 128, 0.95); /* Slightly transparent */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* More prominent shadow when scrolling */
+    }
+
+    /* Section styles */
     section {
-      padding: 100px 20px 60px; /* Adjust padding to account for the fixed navbar */
+      padding: 80px 20px; /* Added padding for fixed nav */
       text-align: center;
     }
+
     h2 {
-      color: #008080; /* Teal */
+      color: #008080;
+      text-align: center;
       margin-bottom: 30px;
     }
-    /* Other styles remain the same */
+
+    .sub-heading {
+      font-size: 1.5rem;
+      margin-bottom: 20px;
+      color: #005f5f;
+    }
+
+    p {
+      margin-bottom: 40px;
+      font-size: 1.1rem;
+      line-height: 1.6;
+    }
+
+    /* Skills, Projects, and Contact Form */
+    .skill-bar-container,
+    .project-container,
+    .contact-form {
+      margin-top: 50px;
+    }
+
+    footer {
+      background-color: #005f5f;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
   </style>
 </head>
 <body>
 
-  <!-- Navbar -->
-  <header>
-    <nav>
-      <ul>
-        <li><a href="#about">About Me</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+  <!-- Navigation Bar -->
+  <nav id="navbar">
+    <ul>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#tech">Tech</a></li>
+      <li><a href="#academic">Academic</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
 
   <!-- About Me Section -->
   <section id="about">
     <h2>About Me</h2>
-    <p>Hi, I’m Habibeh! I’m a data professional with a strong math background and over three years of experience as a Data Analyst. I specialize in transforming complex datasets into actionable insights that drive business success and innovation.</p>
+    <p>Hi, I'm Habibeh Pourmand, a data scientist and researcher based in Toronto with a deep interest in using data to drive decision-making...</p>
   </section>
 
-  <!-- Skills Section -->
-  <section id="skills">
-    <h2>Skills</h2>
-    <div class="skill-bar-container">
-      <!-- Skills bar code remains the same -->
-    </div>
+  <!-- Tech Section -->
+  <section id="tech">
+    <h2>Tech</h2>
+    <h3 class="sub-heading">Skills</h3>
+    <!-- Skills Bars -->
+    <h3 class="sub-heading">Projects</h3>
+    <!-- Projects Listing -->
   </section>
 
-  <!-- Projects Section -->
-  <section id="projects" class="project-container">
-    <h2>Projects</h2>
-    <div class="project">
-      <!-- Projects remain the same -->
-    </div>
+  <!-- Academic Section -->
+  <section id="academic">
+    <h2>Academic</h2>
+    <!-- Education, Talks, and Publications -->
   </section>
 
   <!-- Contact Section -->
   <section id="contact">
-    <h2>Contact Me</h2>
-    <p>If you'd like to get in touch, feel free to reach out via any of the links below.</p>
-    <div class="social-links">
-      <a href="https://www.linkedin.com/in/your-profile" target="_blank">LinkedIn</a>
-      <a href="https://github.com/your-profile" target="_blank">GitHub</a>
-      <a href="mailto:habibeh@example.com">Email</a>
-    </div>
+    <h2>Contact</h2>
+    <!-- Contact Form -->
   </section>
 
   <!-- Footer -->
   <footer>
-    <p>© 2024 Habibeh Pourmand</p>
+    <p>&copy; 2024 Habibeh Pourmand. All rights reserved.</p>
   </footer>
+
+  <!-- JavaScript for Sticky Navbar -->
+  <script>
+    // Sticky Navbar Functionality
+    window.onscroll = function() {makeNavSticky()};
+
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+
+    function makeNavSticky() {
+      if (window.pageYOffset > sticky) {
+        navbar.classList.add("sticky");
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+  </script>
 
 </body>
 </html>
