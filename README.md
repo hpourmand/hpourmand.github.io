@@ -121,6 +121,31 @@
     <!-- Skills Bars -->
     <h3 class="sub-heading">Projects</h3>
     <!-- Projects Listing -->
+     <h3>Customer Shopping Trends Analysis</h3>
+      <p>This project analyzes customer shopping trends using a dataset from www.kaggle.com. The analysis includes Exploratory Data Analysis (EDA), Behavioral Segmentation, and Predictive Modeling to uncover insights into customer behaviors, purchase patterns, and factors affecting customer satisfaction and loyalty.</p>
+      <a href="https://github.com/hpourmand/Customer-Shopping-Trends-" target="_blank" class="btn">View on GitHub</a>
+    </div>
+    <div class="project">
+      <h3>Analyzing Late Book Returns</h3>
+      <p>A local library is facing frequent late returns of books and needs help understanding why this is happening. They want to analyze the data to identify causes and find ways to reduce late returns.</p>
+      <a href="https://github.com/hpourmand/Library" target="_blank" class="btn">View on GitHub</a>
+    </div>
+    <div class="project">
+      <h3>Analysis of 911 Calls Dataset</h3>
+      <p>We analyze the '911 Calls' dataset from Kaggle, which includes information on emergency calls in the U.S., such as call types, timestamps, locations, and emergency details. Additionally, we conduct time series analysis on the dataset</p>
+      <a href="https://github.com/hpourmand/Emergency-911-calls" target="_blank" class="btn">View on GitHub</a>
+    </div>
+    <div class="project">
+      <h3>Identifying Future Programming Skills Trends</h3>
+      <p>As Data Analysts for a global IT consulting firm, we will identify future skill requirements by analyzing data on in-demand programming skills. Our first task involves gathering information from job postings, training portals, and surveys to determine the top programming languages, database skills, and popular IDEs. We will scrape websites and access APIs to collect data in .csv, Excel, and database formats. After data wrangling, we’ll apply statistical analysis and create a dashboard using IBM Cognos Analytics, culminating in a presentation of our findings.</p>
+      <a href="https://github.com/hpourmand/Analyzing-Global-Trends-in-Programming-Database-Skills-and-IDE-Demand" target="_blank" class="btn">View on GitHub</a>
+    </div>
+    <div class="project">
+      <h3>Olympic Performance Analysis by Country</h3>
+      <p>Analyzing each country's Olympic performance over time.</p>
+      <a href="https://github.com/hpourmand/Olympics" target="_blank" class="btn">View on GitHub</a>
+    </div>
+  </section>
   </section>
 
   <!-- Academic Section -->
