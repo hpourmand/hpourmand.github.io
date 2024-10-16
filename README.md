@@ -148,22 +148,6 @@
     <p>&copy; 2024 Habibeh Pourmand. All rights reserved.</p>
   </footer>
 
-  <!-- JavaScript for Sticky Navbar -->
-  <script>
-    // Sticky Navbar Functionality
-    window.onscroll = function() {makeNavSticky()};
-
-    var navbar = document.getElementById("navbar");
-    var sticky = navbar.offsetTop;
-
-    function makeNavSticky() {
-      if (window.pageYOffset > sticky) {
-        navbar.classList.add("sticky");
-      } else {
-        navbar.classList.remove("sticky");
-      }
-    }
-  </script>
 
 </body>
 </html>
