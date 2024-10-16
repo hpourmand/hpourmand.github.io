@@ -235,13 +235,12 @@
     <h2>Academic</h2>
 
     <h3 class="sub-heading">Education</h3>
-    <p>Ph.D. in Mathematics, Jagiellonian University</p>
-    <p>Master's in Mathematics, Tarbiat Modares University</p>
+    <p>Graduate degree in Mathematics, Jagiellonian University</p>
+    <p>Undergraduate degree in Applied Mathematics, Iran University of Science and Technology</p>
 
     <h3 class="sub-heading">Publications</h3>
     <ul>
-      <li>Pourmand, H., et al. (2021). <a href="https://link-to-publication.com" target="_blank">Title of Publication 1</a></li>
-      <li>Pourmand, H., et al. (2020). <a href="https://link-to-publication.com" target="_blank">Title of Publication 2</a></li>
+      <li>Pourmand, H., et al. (2022). <a href="[https://link-to-publication.com](https://www.sciencedirect.com/science/article/pii/S0022039622001188?casa_token=LbO1bhUq56IAAAAA:Yw9GRUtDaevK5DdLiMmaTsZTRooPU3LfY_0-jo6bmNPXARAfnej6tOtYkFJkYAY2M8CqdN7GHw)" target="_blank">On the Properties of Mean Orbital Pseudometric 1</a></li>
     </ul>
 
     <h3 class="sub-heading">Talks</h3>
