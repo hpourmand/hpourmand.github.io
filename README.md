@@ -260,6 +260,7 @@
     <ul>
       <li>2023 - "Workshop on Recent Advances in Continuum Theory, Dimension Theory, Dynamical Systems, and Applications of Topology", Canada</li>
       <li>2022 - "Fractals and Related Fields IV", France</li>
+      <li>2022 - "36th Summer Topology Conference", Austria</li>
     </ul>
   </section>
 
