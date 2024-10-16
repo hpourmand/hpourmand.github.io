@@ -8,97 +8,167 @@
       margin: 0;
       padding: 0;
       box-sizing: border-box;
-      background-color: #f4f4f9;
-      color: #333;
+      background-color: #f4f4f9; /* Light Gray */
+      color: #333; /* Darker Text */
     }
-
-    /* Navigation Bar */
     nav {
       background-color: #008080; /* Teal */
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow under nav */
+      padding: 15px 0;
       position: fixed;
       top: 0;
       width: 100%;
       z-index: 1000;
-      transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Transition effect */
     }
-
     nav ul {
       list-style: none;
       display: flex;
       justify-content: center;
       margin: 0;
-      padding: 15px 0;
+      padding: 0;
     }
-
     nav ul li {
-      margin: 0 25px;
+      margin: 0 20px;
     }
-
     nav ul li a {
       color: white;
       text-decoration: none;
-      font-size: 1.2rem;
-      padding: 8px 15px;
-      transition: background-color 0.3s ease, color 0.3s ease; /* Smooth hover transitions */
-      border-radius: 20px;
+      font-size: 1.1rem;
+      padding: 8px 12px;
+      transition: background-color 0.3s ease;
     }
-
     nav ul li a:hover {
-      background-color: #005f5f; /* Darker teal */
-      color: #f4f4f9; /* Light gray text */
+      background-color: #005f5f; /* Darker Teal */
+      border-radius: 5px;
     }
-
-    /* Sticky Effect */
-    .sticky {
-      background-color: rgba(0, 128, 128, 0.95); /* Slightly transparent */
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* More prominent shadow when scrolling */
-    }
-
-    /* Section styles */
     section {
       padding: 80px 20px; /* Added padding for fixed nav */
       text-align: center;
     }
-
     h2 {
-      color: #008080;
+      color: #008080; /* Teal */
       text-align: center;
       margin-bottom: 30px;
     }
-
     .sub-heading {
       font-size: 1.5rem;
       margin-bottom: 20px;
       color: #005f5f;
     }
-
     p {
       margin-bottom: 40px;
       font-size: 1.1rem;
       line-height: 1.6;
     }
-
-    /* Skills, Projects, and Contact Form */
-    .skill-bar-container,
-    .project-container,
-    .contact-form {
-      margin-top: 50px;
+    .skill-bar-container {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
     }
-
+    .skill-bar {
+      position: relative;
+      background-color: #d3d3d3;
+      border-radius: 10px;
+      margin-bottom: 20px;
+      height: 30px;
+      width: 80%;
+      max-width: 400px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .skill {
+      background-color: #008080;
+      height: 100%;
+      border-radius: 10px;
+      text-align: left;
+      padding-left: 10px;
+      line-height: 30px;
+      color: white;
+      font-weight: 600;
+      transition: width 1.5s ease-in-out;
+    }
+    .project-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+    .project {
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      width: 280px;
+      padding: 20px;
+      transition: transform 0.3s ease, background-color 0.3s;
+    }
+    .project:hover {
+      transform: scale(1.05);
+      background-color: #f0f0f0;
+    }
+    .project h3 {
+      background-color: #008080;
+      color: white;
+      padding: 10px;
+      margin: -20px -20px 15px -20px;
+      border-radius: 10px 10px 0 0;
+    }
     footer {
       background-color: #005f5f;
       color: white;
       text-align: center;
       padding: 20px;
     }
-
+    ul {
+      text-align: left;
+      margin: 0 auto;
+      max-width: 600px;
+      padding-left: 0;
+      list-style-type: none;
+    }
+    ul li {
+      background-color: #fff;
+      padding: 15px;
+      margin-bottom: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    ul li a {
+      color: #008080;
+      font-weight: bold;
+    }
+    ul li a:hover {
+      text-decoration: underline;
+    }
+    .contact-form {
+      display: flex;
+      flex-direction: column;
+      max-width: 400px;
+      margin: 0 auto;
+    }
+    .contact-form input, .contact-form textarea {
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      width: 100%;
+      font-size: 1rem;
+    }
+    .contact-form button {
+      padding: 10px;
+      background-color: #008080;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 1.1rem;
+    }
+    .contact-form button:hover {
+      background-color: #005f5f;
+    }
   </style>
 </head>
 <body>
 
   <!-- Navigation Bar -->
-  <nav id="navbar">
+  <nav>
     <ul>
       <li><a href="#about">About Me</a></li>
       <li><a href="#tech">Tech</a></li>
@@ -110,51 +180,98 @@
   <!-- About Me Section -->
   <section id="about">
     <h2>About Me</h2>
-    <p>Hi, I'm Habibeh Pourmand, a data scientist and researcher based in Toronto with a deep interest in using data to drive decision-making...</p>
+    <p>
+      Hi, I'm Habibeh Pourmand, a data scientist and researcher based in Toronto with a deep interest in using data to drive decision-making. 
+      I have a Ph.D. in Mathematics and more than 3 years of experience working in various data analyst roles, 
+      where I specialize in statistical modeling, machine learning, and data visualization.
+    </p>
+    <p>
+      My background includes both academic research and industry projects, where I have applied my expertise in Python, SQL, Tableau, 
+      and Power BI to solve complex problems. When I'm not working with data, I enjoy learning about new developments in data science and teaching mathematics.
+    </p>
   </section>
 
   <!-- Tech Section -->
   <section id="tech">
     <h2>Tech</h2>
+
     <h3 class="sub-heading">Skills</h3>
-    <!-- Skills Bars -->
+    <div class="skill-bar-container">
+      <div class="skill-bar">
+        <div class="skill" style="width: 95%;">Python</div>
+      </div>
+      <div class="skill-bar">
+        <div class="skill" style="width: 90%;">SQL</div>
+      </div>
+      <div class="skill-bar">
+        <div class="skill" style="width: 90%;">Tableau</div>
+      </div>
+      <div class="skill-bar">
+        <div class="skill" style="width: 90%;">Azure</div>
+      </div>
+      <div class="skill-bar">
+        <div class="skill" style="width: 95%;">Power BI</div>
+      </div>
+      <div class="skill-bar">
+        <div class="skill" style="width: 95%;">Excel</div>
+      </div>
+      <div class="skill-bar">
+        <div class="skill" style="width: 95%;">Apache Spark</div>
+      </div>
+    </div>
+
     <h3 class="sub-heading">Projects</h3>
-    <!-- Projects Listing -->
+    <div class="project-container">
+      <div class="project">
+        <h3>Customer Shopping Trends Analysis</h3>
+        <p>This project analyzes customer shopping trends using Exploratory Data Analysis (EDA), Behavioral Segmentation, and Predictive Modeling.</p>
+        <a href="https://github.com/hpourmand/Customer-Shopping-Trends-" target="_blank">View on GitHub</a>
+      </div>
+      <div class="project">
+        <h3>Analyzing Late Book Returns</h3>
+        <p>Analyzing data to understand late book returns for a local library and identifying causes to reduce them.</p>
+        <a href="https://github.com/hpourmand/Library" target="_blank">View on GitHub</a>
+      </div>
+      <!-- Add more projects here as needed -->
+    </div>
   </section>
 
   <!-- Academic Section -->
   <section id="academic">
     <h2>Academic</h2>
-    <!-- Education, Talks, and Publications -->
+
+    <h3 class="sub-heading">Education</h3>
+    <p>Ph.D. in Mathematics, Jagiellonian University</p>
+    <p>Master's in Mathematics, Tarbiat Modares University</p>
+
+    <h3 class="sub-heading">Publications</h3>
+    <ul>
+      <li>Pourmand, H., et al. (2021). <a href="https://link-to-publication.com" target="_blank">Title of Publication 1</a></li>
+      <li>Pourmand, H., et al. (2020). <a href="https://link-to-publication.com" target="_blank">Title of Publication 2</a></li>
+    </ul>
+
+    <h3 class="sub-heading">Talks</h3>
+    <ul>
+      <li>2021 - "Advancements in Data Science", Tech Conference</li>
+      <li>2020 - "Mathematics in Data Analytics", University Seminar</li>
+    </ul>
   </section>
 
   <!-- Contact Section -->
   <section id="contact">
     <h2>Contact</h2>
-    <!-- Contact Form -->
+    <div class="contact-form">
+      <input type="text" placeholder="Name">
+      <input type="email" placeholder="Email">
+      <textarea rows="5" placeholder="Message"></textarea>
+      <button type="submit">Send Message</button>
+    </div>
   </section>
 
-  <!-- Footer -->
   <footer>
     <p>&copy; 2024 Habibeh Pourmand. All rights reserved.</p>
   </footer>
 
-  <!-- JavaScript for Sticky Navbar -->
-  <script>
-    // Sticky Navbar Functionality
-    window.onscroll = function() {makeNavSticky()};
-
-    var navbar = document.getElementById("navbar");
-    var sticky = navbar.offsetTop;
-
-    function makeNavSticky() {
-      if (window.pageYOffset > sticky) {
-        navbar.classList.add("sticky");
-      } else {
-        navbar.classList.remove("sticky");
-      }
-    }
-  </script>
-
 </body>
 </html>
+
