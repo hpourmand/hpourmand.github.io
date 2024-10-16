@@ -241,7 +241,7 @@
       <p>Analyzing each country's Olympic performance over time.</p>
       <a href="https://github.com/hpourmand/Olympics" target="_blank" class="btn">View on GitHub</a>
     </div>
-  </section>
+
 
   <!-- Academic Section -->
   <section id="academic">
