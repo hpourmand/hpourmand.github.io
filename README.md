@@ -147,7 +147,7 @@
       <a href="https://github.com/hpourmand/Olympics" target="_blank" class="btn">View on GitHub</a>
     </div>
   </section>
-  </section>
+  
 
   <!-- Academic Section -->
   <section id="academic">
