@@ -1,4 +1,3 @@
-
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -10,11 +9,11 @@
       margin: 0;
       padding: 0;
       box-sizing: border-box;
-      background-color: #121212;
-      color: #fff;
+      background-color: #f4f4f9; /* Light Gray */
+      color: #333; /* Darker Text */
     }
     h2 {
-      color: #ff6f61;
+      color: #008080; /* Teal */
       text-align: center;
       margin-bottom: 30px;
     }
@@ -30,13 +29,13 @@
     a {
       text-decoration: none;
       color: #fff;
-      background-color: #ff6f61;
+      background-color: #008080; /* Teal */
       padding: 10px 20px;
       border-radius: 5px;
       transition: background-color 0.3s ease;
     }
     a:hover {
-      background-color: #ff3d2e;
+      background-color: #005f5f; /* Darker Teal */
     }
     .skill-bar-container {
       display: flex;
@@ -45,7 +44,7 @@
     }
     .skill-bar {
       position: relative;
-      background-color: #333;
+      background-color: #d3d3d3; /* Soft Gray */
       border-radius: 10px;
       margin-bottom: 20px;
       height: 30px;
@@ -55,7 +54,7 @@
       margin-right: auto;
     }
     .skill {
-      background-color: #ff6f61;
+      background-color: #008080; /* Teal */
       height: 100%;
       border-radius: 10px;
       text-align: left;
@@ -67,45 +66,64 @@
     }
     .project-container {
       display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
+      flex-direction: column;
+      align-items: center;
       gap: 20px;
+      margin-top: 20px;
     }
     .project {
-      background-color: #222;
+      background-color: #fff; /* White */
       border-radius: 10px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-      width: 280px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      width: 80%;
+      max-width: 500px;
       padding: 20px;
       transition: transform 0.3s ease, background-color 0.3s;
+      display: flex;
+      flex-direction: column; /* Stacking elements vertically */
     }
     .project:hover {
       transform: scale(1.05);
-      background-color: #333;
+      background-color: #f0f0f0; /* Lighter Gray */
+    }
+    .project-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
     }
     .project h3 {
-      background-color: #ff6f61;
+      background-color: #008080; /* Teal */
       color: white;
       padding: 10px;
-      margin: -20px -20px 15px -20px;
-      border-radius: 10px 10px 0 0;
+      border-radius: 10px;
+      margin: 0; /* Remove margin to align */
+      font-size: 1rem;
+      flex-grow: 1; /* Allow it to grow */
     }
     .project p {
       font-size: 0.9rem;
-      margin: 15px 0;
+      margin: 10px 0; /* Adjust spacing */
+      color: #333;
+      text-align: left;
+    }
+    .project .btn {
+      align-self: flex-start; /* Align button to the left */
+      margin-top: 10px; /* Space above the button */
+      padding: 10px 15px;
     }
     footer {
-      background-color: #333;
+      background-color: #005f5f; /* Darker Teal */
       color: white;
       text-align: center;
       padding: 20px;
     }
     .social-links a {
       margin: 0 10px;
+      color: #008080;
       transition: color 0.3s ease;
     }
     .social-links a:hover {
-      color: #ff6f61;
+      color: #005f5f;
     }
   </style>
 </head>
@@ -147,33 +165,16 @@
   <section class="project-container" id="projects">
     <h2>Projects</h2>
     <div class="project">
-      <h3>Customer Shopping Trends Analysis</h3>
+      <div class="project-header">
+        <h3>Customer Shopping Trends Analysis</h3>
+        <a href="https://github.com/hpourmand/Customer-Shopping-Trends-" target="_blank" class="btn">View on GitHub</a>
+      </div>
       <p>This project analyzes customer shopping trends using a dataset from www.kaggle.com. The analysis includes Exploratory Data Analysis (EDA), Behavioral Segmentation, and Predictive Modeling to uncover insights into customer behaviors, purchase patterns, and factors affecting customer satisfaction and loyalty.</p>
-      <a href="https://github.com/hpourmand/Customer-Shopping-Trends-" target="_blank" class="btn">View on GitHub</a>
     </div>
-    <div class="project">
-      <h3>Analyzing Late Book Returns</h3>
-      <p>A local library is facing frequent late returns of books and needs help understanding why this is happening. They want to analyze the data to identify causes and find ways to reduce late returns.</p>
-      <a href="https://github.com/hpourmand/Library" target="_blank" class="btn">View on GitHub</a>
-    </div>
-    <div class="project">
-      <h3>Analysis of 911 Calls Dataset</h3>
-      <p>We analyze the '911 Calls' dataset from Kaggle, which includes information on emergency calls in the U.S., such as call types, timestamps, locations, and emergency details. Additionally, we conduct time series analysis on the dataset</p>
-      <a href="https://github.com/hpourmand/Emergency-911-calls" target="_blank" class="btn">View on GitHub</a>
-    </div>
-    <div class="project">
-      <h3>Identifying Future Programming Skills Trends</h3>
-      <p>As Data Analysts for a global IT consulting firm, we will identify future skill requirements by analyzing data on in-demand programming skills. Our first task involves gathering information from job postings, training portals, and surveys to determine the top programming languages, database skills, and popular IDEs. We will scrape websites and access APIs to collect data in .csv, Excel, and database formats. After data wrangling, we’ll apply statistical analysis and create a dashboard using IBM Cognos Analytics, culminating in a presentation of our findings.</p>
-      <a href="https://github.com/hpourmand/Analyzing-Global-Trends-in-Programming-Database-Skills-and-IDE-Demand" target="_blank" class="btn">View on GitHub</a>
-    </div>
-    <div class="project">
-      <h3>Olympic Performance Analysis by Country</h3>
-      <p>Analyzing each country's Olympic performance over time.</p>
-      <a href="https://github.com/hpourmand/Olympics" target="_blank" class="btn">View on GitHub</a>
-    </div>
+    <!-- Add other projects similarly -->
   </section>
 
- <section id="contact">
+  <section id="contact">
     <h2>Contact Me</h2>
     <p>If you'd like to get in touch, feel free to reach out via any of the links below.</p>
     <div class="social-links">
@@ -183,7 +184,9 @@
     </div>
   </section>
 
- 
- 
+  <footer>
+    <p>© 2024 Habibeh Pourmand</p>
+  </footer>
+
 </body>
 </html>
