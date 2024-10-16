@@ -111,7 +111,7 @@
   <!-- About Me Section -->
   <section id="about">
     <h2>About Me</h2>
-    <p>Hi, I'm a data scientist and researcher based in Toronto with a deep interest in using data to drive decision-making...</p>
+    <p>Hi, I'm a data scientist and researcher based in Toronto with a deep interest in using data to </p>
   </section>
 
   <!-- Tech Section -->
