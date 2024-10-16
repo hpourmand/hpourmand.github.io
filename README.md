@@ -111,7 +111,7 @@
   <!-- About Me Section -->
   <section id="about">
     <h2>About Me</h2>
-    <p>Hi, I'm a data scientist and researcher based in Toronto with a deep interest in using data to </p>
+    <p>Hi, I'm Habibeh Pourmand, a data scientist and researcher based in Toronto with a deep interest in using data to drive decision-making...</p>
   </section>
 
   <!-- Tech Section -->
@@ -137,7 +137,7 @@
 
   <!-- Footer -->
   <footer>
-    <p>&copy; 2024. All rights reserved.</p>
+    <p>&copy; 2024 Habibeh Pourmand. All rights reserved.</p>
   </footer>
 
   <!-- JavaScript for Sticky Navbar -->
