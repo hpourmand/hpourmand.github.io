@@ -111,7 +111,7 @@
   <!-- About Me Section -->
   <section id="about">
     <h2>About Me</h2>
-    <p>Hi, I'm Habibeh Pourmand,I’m a data professional with a strong math background and over three years of experience as a Data Analyst. I specialize in transforming complex datasets into actionable insights that drive business success and innovation.</p>
+    <p>Hi, I’m Habibeh Pourmand! I’m a data professional with a strong math background and over three years of experience as a Data Analyst. I specialize in transforming complex datasets into actionable insights that drive business success and innovation.</p>
   </section>
 
   <!-- Tech Section -->
@@ -129,25 +129,33 @@
     <!-- Education, Talks, and Publications -->
   </section>
 
+  <!-- Contact Section -->
   <section id="contact">
     <h2>Contact</h2>
-    <div class="contact-form">
-      <input type="text" placeholder="Name">
-      <input type="email" placeholder="Email">
-      <textarea rows="5" placeholder="Message"></textarea>
-      <button type="submit">Send Message</button>
-    </div>
+    <!-- Contact Form -->
   </section>
-
-  <footer>
-    <p>&copy; 2024 Habibeh Pourmand. All rights reserved.</p>
-  </footer>
 
   <!-- Footer -->
   <footer>
     <p>&copy; 2024 Habibeh Pourmand. All rights reserved.</p>
   </footer>
 
+  <!-- JavaScript for Sticky Navbar -->
+  <script>
+    // Sticky Navbar Functionality
+    window.onscroll = function() {makeNavSticky()};
+
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+
+    function makeNavSticky() {
+      if (window.pageYOffset > sticky) {
+        navbar.classList.add("sticky");
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+  </script>
 
 </body>
 </html>
