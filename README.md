@@ -258,8 +258,8 @@
 
     <h3 class="sub-heading">Talks</h3>
     <ul>
-      <li>2021 - "Advancements in Data Science", Tech Conference</li>
-      <li>2020 - "Mathematics in Data Analytics", University Seminar</li>
+      <li>2023 - "Workshop on Recent Advances in Continuum Theory, Dimension Theory, Dynamical Systems, and Applications of Topology", Canada</li>
+      <li>2022 - "Fractals and Related Fields IV", France</li>
     </ul>
   </section>
 
