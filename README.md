@@ -111,7 +111,7 @@
   <!-- About Me Section -->
   <section id="about">
     <h2>About Me</h2>
-    <p>Hi, I'm Habibeh Pourmand, a data scientist and researcher based in Toronto with a deep interest in using data to drive decision-making...</p>
+    <p>Hi, I’m Habibeh Pourmand! I’m a data professional with a strong math background and over three years of experience as a Data Analyst. I specialize in transforming complex datasets into actionable insights that drive business success and innovation.</p>
   </section>
 
   <!-- Tech Section -->
@@ -119,6 +119,30 @@
     <h2>Tech</h2>
     <h3 class="sub-heading">Skills</h3>
     <!-- Skills Bars -->
+     <h2>Skills</h2>
+    <div class="skill-bar-container">
+      <div class="skill-bar">
+        <div class="skill" style="width: 95%;">Python</div>
+      </div>
+      <div class="skill-bar">
+        <div class="skill" style="width: 90%;">SQL</div>
+      </div>
+      <div class="skill-bar">
+        <div class="skill" style="width: 90%;">Tableau</div>
+      </div>
+      <div class="skill-bar">
+        <div class="skill" style="width: 90%;">Azure</div>
+      </div>
+      <div class="skill-bar">
+        <div class="skill" style="width: 95%;">Power BI</div>
+      </div>
+      <div class="skill-bar">
+        <div class="skill" style="width: 95%;">Excel</div>
+      </div>
+      <div class="skill-bar">
+        <div class="skill" style="width: 95%;">Apache Spark</div>
+      </div>
+    </div>
     <h3 class="sub-heading">Projects</h3>
     <!-- Projects Listing -->
   </section>
