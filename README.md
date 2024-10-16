@@ -160,6 +160,23 @@
     <!-- Contact Form -->
   </section>
 
+
+
+ <section id="contact">
+    <h2>Contact</h2>
+    <div class="contact-form">
+      <input type="text" placeholder="Name">
+      <input type="email" placeholder="Email">
+      <textarea rows="5" placeholder="Message"></textarea>
+      <button type="submit">Send Message</button>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Habibeh Pourmand. All rights reserved.</p>
+  </footer>
+
+
   <!-- Footer -->
   <footer>
     <p>&copy; 2024 Habibeh Pourmand. All rights reserved.</p>
