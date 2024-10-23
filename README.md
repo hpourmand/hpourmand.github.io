@@ -167,7 +167,7 @@
           <div class="skill" style="width: 90%;">Azure</div>
         </div>
         <div class="skill-bar">
-          <div class="skill" style="width: 85%;">Power BI</div>
+          <div class="skill" style="width: 90%;">Power BI</div>
         </div>
         <div class="skill-bar">
           <div class="skill" style="width: 95%;">Excel</div>
