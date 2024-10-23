@@ -167,13 +167,13 @@
           <div class="skill" style="width: 90%;">Azure</div>
         </div>
         <div class="skill-bar">
-          <div class="skill" style="width: 90%;">Power BI</div>
+          <div class="skill" style="width: 95%;">Power BI</div>
         </div>
         <div class="skill-bar">
           <div class="skill" style="width: 95%;">Excel</div>
         </div>
         <div class="skill-bar">
-          <div class="skill" style="width: 90%;">Apache Spark</div>
+          <div class="skill" style="width: 95%;">Apache Spark</div>
         </div>
       </div>
     </section>
@@ -208,14 +208,15 @@
     </section>
 
     <section id="contact">
-         <h2>Contact Me</h2>
-    <p>If you'd like to get in touch, feel free to reach out via any of the links below.</p>
-    <div class="social-links">
-      <a href="https://www.linkedin.com/in/habibehpourmand" target="_blank">LinkedIn</a>
-      <a href="https://github.com/hpourmand" target="_blank">GitHub</a>
-      <a href="mailto:habibeh.pourmand@gmail.com">Email</a>
-    </div>
-  </section>
+      <h2>Contact Me</h2>
+      <p>Feel free to reach out if you have any questions or would like to connect!</p>
+      <p>Email: <a href="mailto:habibeh.pourmand@gmail.com">habibeh.pourmand@gmail.com</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/hpourmand" target="_blank">linkedin.com/in/hpourmand</a></p>
+      <div class="social-links">
+        <a href="https://github.com/hpourmand" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/hpourmand" target="_blank">LinkedIn</a>
+      </div>
+    </section>
   </div>
 
   <footer>
