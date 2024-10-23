@@ -214,7 +214,7 @@
       <p>LinkedIn: <a href="https://www.linkedin.com/in/hpourmand" target="_blank">linkedin.com/in/hpourmand</a></p>
       <div class="social-links">
         <a href="https://github.com/hpourmand" target="_blank">GitHub</a>
-        <a href="https://www.linkedin.com/in/hpourmand" target="_blank">LinkedIn</a>
+        <a href="https://www.linkedin.com/in/habibehpourmand" target="_blank">LinkedIn</a>
       </div>
     </section>
   </div>
