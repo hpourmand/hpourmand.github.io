@@ -212,7 +212,7 @@
     
     
       <div class="social-links">
-       <a href="mailto:habibeh.pourmand@gmail.com">habibeh.pourmand@gmail.com</a>
+        <a href="mailto:habibeh.pourmand@gmail.com">Email</a>
         <a href="https://www.linkedin.com/in/habibehpourmand" target="_blank">LinkedIn</a>
        <a href="https://github.com/hpourmand" target="_blank">GitHub</a>
       </div>
