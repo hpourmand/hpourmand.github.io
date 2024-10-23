@@ -211,7 +211,7 @@
       <h2>Contact Me</h2>
       <p>Feel free to reach out if you have any questions or would like to connect!</p>
       <p>Email: <a href="mailto:habibeh.pourmand@gmail.com">habibeh.pourmand@gmail.com</a></p>
-      <p>LinkedIn: <a href="https://www.linkedin.com/in/hpourmand" target="_blank">linkedin.com/in/hpourmand</a></p>
+      
       <div class="social-links">
         <a href="https://github.com/hpourmand" target="_blank">GitHub</a>
         <a href="https://www.linkedin.com/in/habibehpourmand" target="_blank">LinkedIn</a>
