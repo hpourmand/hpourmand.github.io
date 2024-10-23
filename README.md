@@ -11,6 +11,32 @@
       box-sizing: border-box;
       background-color: #f4f4f9; /* Light gray background */
       color: #333; /* Dark gray text */
+      display: flex; /* Use flexbox for layout */
+    }
+    .navbar {
+      background-color: #005f5f; /* Darker teal for navbar */
+      padding: 20px;
+      width: 200px; /* Set a fixed width for the navbar */
+      height: 100vh; /* Full height */
+      position: fixed; /* Fixed position */
+      overflow-y: auto; /* Scroll if necessary */
+    }
+    .navbar a {
+      color: white;
+      text-decoration: none;
+      display: block; /* Make links block elements */
+      padding: 10px;
+      margin: 5px 0; /* Space between links */
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+    .navbar a:hover {
+      background-color: #008080; /* Teal on hover */
+    }
+    .content {
+      margin-left: 220px; /* Space for the navbar */
+      padding: 20px; /* Padding for content */
+      flex-grow: 1; /* Allow content to grow */
     }
     h2 {
       color: #008080; /* Teal */
@@ -26,7 +52,7 @@
       font-size: 1.1rem;
       line-height: 1.6;
     }
-    a {
+    a.btn {
       text-decoration: none;
       color: #fff;
       background-color: #008080; /* Teal */
@@ -34,7 +60,7 @@
       border-radius: 5px;
       transition: background-color 0.3s ease;
     }
-    a:hover {
+    a.btn:hover {
       background-color: #005f5f; /* Darker teal */
     }
     .skill-bar-container {
@@ -111,77 +137,91 @@
 </head>
 <body>
 
-  <section id="about">
-    <h2>About Me</h2>
-    <p>Hi, I’m Habibeh! I’m a data professional with a strong math background and over three years of experience as a Data Analyst. I specialize in transforming complex datasets into actionable insights that drive business success and innovation.
-    </p>
-  </section>
+  <div class="navbar">
+    <h2>Navigation</h2>
+    <a href="#about">About Me</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </div>
 
-  <section id="skills">
-    <h2>Skills</h2>
-    <div class="skill-bar-container">
-      <div class="skill-bar">
-        <div class="skill" style="width: 95%;">Python</div>
-      </div>
-      <div class="skill-bar">
-        <div class="skill" style="width: 90%;">SQL</div>
-      </div>
-      <div class="skill-bar">
-        <div class="skill" style="width: 90%;">Tableau</div>
-      </div>
-      <div class="skill-bar">
-        <div class="skill" style="width: 90%;">Azure</div>
-      </div>
-      <div class="skill-bar">
-        <div class="skill" style="width: 95%;">Power BI</div>
-      </div>
-      <div class="skill-bar">
-        <div class="skill" style="width: 95%;">Excel</div>
-      </div>
-      <div class="skill-bar">
-        <div class="skill" style="width: 95%;">Apache Spark</div>
-      </div>
-    </div>
-  </section>
+  <div class="content">
+    <section id="about">
+      <h2>About Me</h2>
+      <p>Hi, I’m Habibeh! I’m a data professional with a strong math background and over three years of experience as a Data Analyst. I specialize in transforming complex datasets into actionable insights that drive business success and innovation.</p>
+    </section>
 
-  <section class="project-container" id="projects">
-    <h2>Projects</h2>
-    <div class="project">
-      <h3>Customer Shopping Trends Analysis</h3>
-      <p>This project analyzes customer shopping trends using a dataset from www.kaggle.com. The analysis includes Exploratory Data Analysis (EDA), Behavioral Segmentation, and Predictive Modeling to uncover insights into customer behaviors, purchase patterns, and factors affecting customer satisfaction and loyalty.</p>
-      <a href="https://github.com/hpourmand/Customer-Shopping-Trends-" target="_blank" class="btn">View on GitHub</a>
-    </div>
-    <div class="project">
-      <h3>Analyzing Late Book Returns</h3>
-      <p>A local library is facing frequent late returns of books and needs help understanding why this is happening. They want to analyze the data to identify causes and find ways to reduce late returns.</p>
-      <a href="https://github.com/hpourmand/Library" target="_blank" class="btn">View on GitHub</a>
-    </div>
-    <div class="project">
-      <h3>Analysis of 911 Calls Dataset</h3>
-      <p>We analyze the '911 Calls' dataset from Kaggle, which includes information on emergency calls in the U.S., such as call types, timestamps, locations, and emergency details. Additionally, we conduct time series analysis on the dataset</p>
-      <a href="https://github.com/hpourmand/Emergency-911-calls" target="_blank" class="btn">View on GitHub</a>
-    </div>
-    <div class="project">
-      <h3>Identifying Future Programming Skills Trends</h3>
-      <p>As Data Analysts for a global IT consulting firm, we will identify future skill requirements by analyzing data on in-demand programming skills. Our first task involves gathering information from job postings, training portals, and surveys to determine the top programming languages, database skills, and popular IDEs. We will scrape websites and access APIs to collect data in .csv, Excel, and database formats. After data wrangling, we’ll apply statistical analysis and create a dashboard using IBM Cognos Analytics, culminating in a presentation of our findings.</p>
-      <a href="https://github.com/hpourmand/Analyzing-Global-Trends-in-Programming-Database-Skills-and-IDE-Demand" target="_blank" class="btn">View on GitHub</a>
-    </div>
-    <div class="project">
-      <h3>Olympic Performance Analysis by Country</h3>
-      <p>Analyzing each country's Olympic performance over time.</p>
-      <a href="https://github.com/hpourmand/Olympics" target="_blank" class="btn">View on GitHub</a>
-    </div>
-  </section>
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="skill-bar-container">
+        <div class="skill-bar">
+          <div class="skill" style="width: 95%;">Python</div>
+        </div>
+        <div class="skill-bar">
+          <div class="skill" style="width: 90%;">SQL</div>
+        </div>
+        <div class="skill-bar">
+          <div class="skill" style="width: 90%;">Tableau</div>
+        </div>
+        <div class="skill-bar">
+          <div class="skill" style="width: 90%;">Azure</div>
+        </div>
+        <div class="skill-bar">
+          <div class="skill" style="width: 95%;">Power BI</div>
+        </div>
+        <div class="skill-bar">
+          <div class="skill" style="width: 95%;">Excel</div>
+        </div>
+        <div class="skill-bar">
+          <div class="skill" style="width: 95%;">Apache Spark</div>
+        </div>
+      </div>
+    </section>
 
- <section id="contact">
-    <h2>Contact Me</h2>
-    <p>If you'd like to get in touch, feel free to reach out via any of the links below.</p>
-    <div class="social-links">
-      <a href="https://www.linkedin.com/in/habibehpourmand" target="_blank">LinkedIn</a>
-      <a href="https://github.com/hpourmand" target="_blank">GitHub</a>
-      <a href="mailto:habibeh.pourmand@gmail.com">Email</a>
-    </div>
-  </section>
+    <section class="project-container" id="projects">
+      <h2>Projects</h2>
+      <div class="project">
+        <h3>Customer Shopping Trends Analysis</h3>
+        <p>This project analyzes customer shopping trends using a dataset from www.kaggle.com. The analysis includes Exploratory Data Analysis (EDA), Behavioral Segmentation, and Predictive Modeling to uncover insights into customer behaviors, purchase patterns, and factors affecting customer satisfaction and loyalty.</p>
+        <a href="https://github.com/hpourmand/Customer-Shopping-Trends-" target="_blank" class="btn">View on GitHub</a>
+      </div>
+      <div class="project">
+        <h3>Analyzing Late Book Returns</h3>
+        <p>A local library is facing frequent late returns of books and needs help understanding why this is happening. They want to analyze the data to identify causes and find ways to reduce late returns.</p>
+        <a href="https://github.com/hpourmand/Library" target="_blank" class="btn">View on GitHub</a>
+      </div>
+      <div class="project">
+        <h3>Analysis of 911 Calls Dataset</h3>
+        <p>We analyze the '911 Calls' dataset from Kaggle, which includes information on emergency calls in the U.S., such as call types, timestamps, locations, and emergency details. Additionally, we conduct time series analysis on the dataset.</p>
+        <a href="https://github.com/hpourmand/Emergency-911-calls" target="_blank" class="btn">View on GitHub</a>
+      </div>
+      <div class="project">
+        <h3>Identifying Future Programming Skills Trends</h3>
+        <p>As Data Analysts for a global IT consulting firm, we will identify future skill requirements by analyzing data on in-demand programming skills. Our first task involves gathering information from job postings, training portals, and surveys to determine the top programming languages, database skills, and popular IDEs. We will scrape websites and access APIs to collect data in .csv, Excel, and database formats. After data wrangling, we’ll apply statistical analysis and create a dashboard using IBM Cognos Analytics, culminating in a presentation of our findings.</p>
+        <a href="https://github.com/hpourmand/Analyzing-Global-Trends-in-Programming-Database-Skills-and-IDE-Demand" target="_blank" class="btn">View on GitHub</a>
+      </div>
+      <div class="project">
+        <h3>Olympic Performance Analysis by Country</h3>
+        <p>Analyzing each country's Olympic performance over time.</p>
+        <a href="https://github.com/hpourmand/Olympic-Performance-Analysis" target="_blank" class="btn">View on GitHub</a>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <p>Feel free to reach out if you have any questions or would like to connect!</p>
+      <p>Email: <a href="mailto:habibeh.pourmand@gmail.com">habibeh.pourmand@gmail.com</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/hpourmand" target="_blank">linkedin.com/in/hpourmand</a></p>
+      <div class="social-links">
+        <a href="https://github.com/hpourmand" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/hpourmand" target="_blank">LinkedIn</a>
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    <p>© 2024 Habibeh Pourmand. All rights reserved.</p>
+  </footer>
 
 </body>
 </html>
