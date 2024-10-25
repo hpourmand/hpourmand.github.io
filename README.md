@@ -161,19 +161,19 @@
           <div class="skill" style="width: 90%;">SQL</div>
         </div>
         <div class="skill-bar">
-          <div class="skill" style="width: 90%;">Tableau</div>
+          <div class="skill" style="width: 95%;">Tableau</div>
         </div>
         <div class="skill-bar">
           <div class="skill" style="width: 90%;">Azure</div>
         </div>
         <div class="skill-bar">
-          <div class="skill" style="width: 95%;">Power BI</div>
+          <div class="skill" style="width: 90%;">Power BI</div>
         </div>
         <div class="skill-bar">
           <div class="skill" style="width: 95%;">Excel</div>
         </div>
         <div class="skill-bar">
-          <div class="skill" style="width: 95%;">Apache Spark</div>
+          <div class="skill" style="width: 85%;">Apache Spark</div>
         </div>
          <div class="skill-bar">
           <div class="skill" style="width: 80%;">Snowflake</div>
