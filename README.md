@@ -175,6 +175,9 @@
         <div class="skill-bar">
           <div class="skill" style="width: 95%;">Apache Spark</div>
         </div>
+         <div class="skill-bar">
+          <div class="skill" style="width: 80%;">Snowflake</div>
+        </div>
       </div>
     </section>
 
