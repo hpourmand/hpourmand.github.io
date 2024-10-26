@@ -145,7 +145,7 @@
 <body>
 
   <div class="navbar">
-    <img src="/Users/hpourmand/Desktop/profile.jpg" alt="My Picture" class="profile-picture">
+    <img src="/Users/hpourmand/Desktop/profile.jpeg" alt="My Picture" class="profile-picture">
     <h2>Navigation</h2>
     <a href="#about">About Me</a>
     <a href="#skills">Skills</a>
