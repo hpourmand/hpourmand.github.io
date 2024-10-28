@@ -223,7 +223,7 @@
   </div>
 
   <footer>
-    <p>© 2024 Habibeh Pourmand. All rights reserved.</p>
+    <p>© All rights reserved.</p>
   </footer>
 
 </body>
