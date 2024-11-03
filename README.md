@@ -185,7 +185,7 @@
       <h2>Projects</h2>
       <div class="project">
         <h3>Retail Sales Analysis</h3>
-        <p>A Working on it.</p>
+        <p>Working on it.</p>
         <a href="https://github.com/hpourmand/Retail" target="_blank" class="btn">View on GitHub</a>
       </div>
       <div class="project">
