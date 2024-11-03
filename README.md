@@ -184,6 +184,11 @@
     <section class="project-container" id="projects">
       <h2>Projects</h2>
       <div class="project">
+        <h3>Retail Sales Analysis</h3>
+        <p>A Working on it.</p>
+        <a href="https://github.com/hpourmand/Retail" target="_blank" class="btn">View on GitHub</a>
+      </div>
+      <div class="project">
         <h3>Customer Shopping Trends Analysis</h3>
         <p>This project analyzes customer shopping trends using a dataset from www.kaggle.com. The analysis includes Exploratory Data Analysis (EDA), Behavioral Segmentation, and Predictive Modeling to uncover insights into customer behaviors, purchase patterns, and factors affecting customer satisfaction and loyalty.</p>
         <a href="https://github.com/hpourmand/Customer-Shopping-Trends-" target="_blank" class="btn">View on GitHub</a>
