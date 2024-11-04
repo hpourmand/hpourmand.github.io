@@ -185,7 +185,7 @@
       <h2>Projects</h2>
       <div class="project">
         <h3>Retail Sales Analysis</h3>
-        <p>Working on it.</p>
+        <p>This project involves a detailed analysis of sales performance data, encompassing records on customer orders, shipping details, and sales metrics across various regions, product categories, and customer segments. The data has undergone preprocessing and feature engineering to prepare it for machine learning applications aimed at uncovering trends and predicting customer behaviors.</p>
         <a href="https://github.com/hpourmand/Retail" target="_blank" class="btn">View on GitHub</a>
       </div>
       <div class="project">
