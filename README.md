@@ -184,6 +184,13 @@
     <section class="project-container" id="projects">
       <h2>Projects</h2>
       <div class="project">
+        <h3>Credit Risk Modeling</h3>
+        <p>The purpose of this project was to develop a credit risk model to predict the likelihood of loan default using LendingClub’s publicly available loan data. By accurately predicting the probability of default, this model aims to support financial institutions in making more informed lending decisions, thus minimizing potential losses while offering competitive loan options to borrowers.
+
+*** Will be updated soon!</p>
+        <a href="https://github.com/hpourmand/Credit-Risk-Modeling" target="_blank" class="btn">View on GitHub</a>
+      </div>
+      <div class="project">
         <h3>Retail Sales Analysis</h3>
         <p>This project involves a detailed analysis of sales performance data, encompassing records on customer orders, shipping details, and sales metrics across various regions, product categories, and customer segments. The data has undergone preprocessing and feature engineering to prepare it for machine learning applications aimed at uncovering trends and predicting customer behaviors.</p>
         <a href="https://github.com/hpourmand/Retail" target="_blank" class="btn">View on GitHub</a>
