@@ -148,7 +148,9 @@
   <div class="content">
     <section id="about">
       <h2>About Me</h2>
-      <p>Hi, I’m Habibeh! I’m a data professional with a strong math background and over three years of experience as a Data Analyst. I specialize in transforming complex datasets into actionable insights that drive business success and innovation.</p>
+      <p>Hi, I’m Habibeh! I am a Data Scientist and Mathematician with a Ph.D. in Mathematics and over four years of professional experience in leveraging data to drive impactful solutions. My expertise spans predictive analytics, machine learning, statistical modeling, and data visualization, coupled with a passion for transforming complex datasets into actionable insights.
+
+I excel at utilizing advanced tools such as Python, SQL, PySpark, Git, and Tableau to develop and deploy robust data models, enhance decision-making processes, and streamline workflows. </p>
     </section>
 
     <section id="skills">
